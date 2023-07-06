@@ -75,8 +75,8 @@ const GetStarted = () => {
             viewport={{ once: false, amount: 0.25 }}
           >
             <h2 className='text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('imanathelete')}</h2>
-            <div className="mt-[31px] flex flex-col  gap-[24px]">
-              <p className='text-white  sm:w-[800px] w-[350px]'>
+            <div className="mt-[31px] flex flex-col gap-[24px]">
+              <p className='text-white sm:w-[800px] w-[350px]'>
 
                 {t('imanatheletetext')}
               </p>

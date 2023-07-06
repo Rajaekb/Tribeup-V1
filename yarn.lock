@@ -122,15 +122,15 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@next/env@13.4.7":
-  version "13.4.7"
-  resolved "https://registry.npmjs.org/@next/env/-/env-13.4.7.tgz"
-  integrity sha512-ZlbiFulnwiFsW9UV1ku1OvX/oyIPLtMk9p/nnvDSwI0s7vSoZdRtxXNsaO+ZXrLv/pMbXVGq4lL8TbY9iuGmVw==
+"@next/env@13.4.8":
+  version "13.4.8"
+  resolved "https://registry.npmjs.org/@next/env/-/env-13.4.8.tgz"
+  integrity sha512-twuSf1klb3k9wXI7IZhbZGtFCWvGD4wXTY2rmvzIgVhXhs7ISThrbNyutBx3jWIL8Y/Hk9+woytFz5QsgtcRKQ==
 
-"@next/swc-win32-x64-msvc@13.4.7":
-  version "13.4.7"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.7.tgz"
-  integrity sha512-sW9Yt36Db1nXJL+mTr2Wo0y+VkPWeYhygvcHj1FF0srVtV+VoDjxleKtny21QHaG05zdeZnw2fCtf2+dEqgwqA==
+"@next/swc-win32-x64-msvc@13.4.8":
+  version "13.4.8"
+  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.8.tgz"
+  integrity sha512-UIRKoByVKbuR6SnFG4JM8EMFlJrfEGuUQ1ihxzEleWcNwRMMiVaCj1KyqfTOW8VTQhJ0u8P1Ngg6q1RwnIBTtw==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -323,6 +323,11 @@ dlv@^1.1.3:
   resolved "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz"
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
+dotenv@^16.3.1:
+  version "16.3.1"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+
 electron-to-chromium@^1.4.431:
   version "1.4.435"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.435.tgz"
@@ -433,10 +438,10 @@ graphql-request@^6.1.0:
     "@graphql-typed-document-node/core" "^3.2.0"
     cross-fetch "^3.1.5"
 
-"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@14 - 16":
-  version "16.6.0"
-  resolved "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
-  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
+"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", graphql@^16.7.1, "graphql@14 - 16":
+  version "16.7.1"
+  resolved "https://registry.npmjs.org/graphql/-/graphql-16.7.1.tgz"
+  integrity sha512-DRYR9tf+UGU0KOsMcKAlXeFfX89UiiIZ0dRU3mR0yJfu6OjZqUcp68NnFLnqQU5RexygFoDy1EW+ccOYcPfmHg==
 
 has@^1.0.3:
   version "1.0.3"
@@ -571,21 +576,21 @@ negotiator@^0.6.3:
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
 next-intl@^3.0.0-beta.3:
-  version "3.0.0-beta.3"
-  resolved "https://registry.npmjs.org/next-intl/-/next-intl-3.0.0-beta.3.tgz"
-  integrity sha512-/PALjI0OSsR1/q5GOu/QQjH2WPgf/cd9jQJP+/Xcor45FVP8zd9MoW+99Ctmud1pA5qq6926UbrIbg7ha9MseQ==
+  version "3.0.0-beta.7"
+  resolved "https://registry.npmjs.org/next-intl/-/next-intl-3.0.0-beta.7.tgz"
+  integrity sha512-EMNBHP/xTni6Y/yT9ACytMU2RNsZkoa8ccEomRrTSWyOmSyYFj1vk7A8oSfecGWm6c0n//qKhfzdXzuik7+taQ==
   dependencies:
     "@formatjs/intl-localematcher" "^0.2.32"
     negotiator "^0.6.3"
     server-only "0.0.1"
-    use-intl "^2.15.0"
+    use-intl "^2.17.0"
 
 "next@^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0", next@^13.4.7:
-  version "13.4.7"
-  resolved "https://registry.npmjs.org/next/-/next-13.4.7.tgz"
-  integrity sha512-M8z3k9VmG51SRT6v5uDKdJXcAqLzP3C+vaKfLIAM0Mhx1um1G7MDnO63+m52qPdZfrTFzMZNzfsgvm3ghuVHIQ==
+  version "13.4.8"
+  resolved "https://registry.npmjs.org/next/-/next-13.4.8.tgz"
+  integrity sha512-lxUjndYKjZHGK3CWeN2RI+/6ni6EUvjiqGWXAYPxUfGIdFGQ5XoisrqAJ/dF74aP27buAfs8MKIbIMMdxjqSBg==
   dependencies:
-    "@next/env" "13.4.7"
+    "@next/env" "13.4.8"
     "@swc/helpers" "0.5.1"
     busboy "1.6.0"
     caniuse-lite "^1.0.30001406"
@@ -594,15 +599,15 @@ next-intl@^3.0.0-beta.3:
     watchpack "2.4.0"
     zod "3.21.4"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "13.4.7"
-    "@next/swc-darwin-x64" "13.4.7"
-    "@next/swc-linux-arm64-gnu" "13.4.7"
-    "@next/swc-linux-arm64-musl" "13.4.7"
-    "@next/swc-linux-x64-gnu" "13.4.7"
-    "@next/swc-linux-x64-musl" "13.4.7"
-    "@next/swc-win32-arm64-msvc" "13.4.7"
-    "@next/swc-win32-ia32-msvc" "13.4.7"
-    "@next/swc-win32-x64-msvc" "13.4.7"
+    "@next/swc-darwin-arm64" "13.4.8"
+    "@next/swc-darwin-x64" "13.4.8"
+    "@next/swc-linux-arm64-gnu" "13.4.8"
+    "@next/swc-linux-arm64-musl" "13.4.8"
+    "@next/swc-linux-x64-gnu" "13.4.8"
+    "@next/swc-linux-x64-musl" "13.4.8"
+    "@next/swc-win32-arm64-msvc" "13.4.8"
+    "@next/swc-win32-ia32-msvc" "13.4.8"
+    "@next/swc-win32-x64-msvc" "13.4.8"
 
 node-fetch@^2.6.11:
   version "2.6.11"
@@ -615,6 +620,11 @@ node-releases@^2.0.12:
   version "2.0.12"
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.12.tgz"
   integrity sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==
+
+nodemailer@^6.9.3:
+  version "6.9.3"
+  resolved "https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.3.tgz"
+  integrity sha512-fy9v3NgTzBngrMFkDsKEj0r02U7jm6XfC3b52eoNV+GCrGj+s8pt5OqhiJdWKuw51zCTdiNR/IUD1z33LIIGpg==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
@@ -937,10 +947,10 @@ update-browserslist-db@^1.0.11:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-use-intl@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.npmjs.org/use-intl/-/use-intl-2.15.0.tgz"
-  integrity sha512-pQbJS4HGtZjfYgm8UbEG5/2RV+X3BepqL+10bY/cPPE5ihJVXVl8LKKWoB0MfKv1PMYEtLM9B9BAe2W9m8GDXQ==
+use-intl@^2.17.0:
+  version "2.17.1"
+  resolved "https://registry.npmjs.org/use-intl/-/use-intl-2.17.1.tgz"
+  integrity sha512-4UMLLYwvJpxwwZlS2d324T3lbQfTlDkgcawNnWw/LkYM/JuILrVspNb4r2EO6EPRtWxaecpaekPTtjFFVG3rJQ==
   dependencies:
     "@formatjs/ecma402-abstract" "^1.11.4"
     intl-messageformat "^9.3.18"

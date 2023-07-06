@@ -34,7 +34,7 @@ const NewsLetter = () => {
     if (inputs.email) {
       setForm({ state: 'loading' })
       try {
-        const res = await fetch(`api/email`, {
+        const res = await fetch(`/email`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
