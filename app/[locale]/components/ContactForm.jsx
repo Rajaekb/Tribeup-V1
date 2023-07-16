@@ -29,10 +29,12 @@ const ContactForm = () => {
 		if (inputs.name && inputs.email && inputs.message) {
 			setForm({ state: 'loading' })
 			try {
-				const res = await fetch(`/api/contact`, {
+				const res = await fetch(`/api/contactapi`, {
 					method: 'POST',
 					headers: {
+						Accept: "application/json, text/plain, */*",
 						'Content-Type': 'application/json',
+
 					},
 					body: JSON.stringify(inputs),
 				})
@@ -59,7 +61,7 @@ const ContactForm = () => {
 			} catch (error) {
 				setForm({
 					state: 'error',
-					message: 'Something went wrong',
+					message: error.message,
 				})
 			}
 		}

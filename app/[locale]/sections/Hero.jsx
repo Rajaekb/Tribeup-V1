@@ -76,6 +76,7 @@ const Hero = () => {
                 src={rugbyImg}
                 alt="rugbyimage"
 
+
                 className="w-[800px] h-[800px] object-contain sm:-mt-20 sm:ml-20 -mt-52" />
               <Link to="About" smooth={true} offset={-100} duration={500}>
                 <Image

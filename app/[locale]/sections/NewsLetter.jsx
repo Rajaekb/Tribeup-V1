@@ -1,6 +1,7 @@
 'use client';
 
 
+import axios from 'axios';
 
 import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion';
@@ -12,29 +13,30 @@ const NewsLetter = () => {
 
   const t = useTranslations('Index');
 
+  const [email, setEmail] = useState('');
 
-  const [inputs, setInputs] = useState({
-
-    email: '',
-
-  })
+  /* const [inputs, setInputs] = useState({
+ 
+     email: '',
+ 
+   })*/
 
   const [form, setForm] = useState('')
 
-  const handleChange = (e) => {
+  /* const handleChange = (e) => {
     setInputs((prev) => ({
       ...prev,
       [e.target.id]: e.target.value,
     }))
   }
 
-  const onSubmitForm = async (e) => {
+ const onSubmitForm = async (e) => {
     e.preventDefault()
 
     if (inputs.email) {
       setForm({ state: 'loading' })
       try {
-        const res = await fetch(`/api/email`, {
+        const res = await fetch(`/api/emailapi`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -69,7 +71,31 @@ const NewsLetter = () => {
       }
     }
   }
+*/
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (email) {
+      setForm({ state: 'loading' })
+      try {
+        await axios.post('/api/emailapi', { email });
+        //alert('Message sent successfully!');
+        setForm({
+          state: 'success',
+          message: 'Thank you for your subscription',
+        })
 
+        setEmail('');
+
+      } catch (error) {
+        console.error(error);
+        alert('An error occurred. Please try again later.');
+        setForm({
+          state: 'error',
+          message: error.message,
+        })
+      }
+    }
+  };
   return (
 
     <section className=" bg-gradient-to-br from-[#F86811] from-5% via-[#FDA500] to-[#FEC001] text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
@@ -94,7 +120,7 @@ const NewsLetter = () => {
                 </motion.h1>
               </div>
 
-              <form onSubmit={(e) => onSubmitForm(e)}>
+              <form onSubmit={handleSubmit}>
 
                 <div class="mb-6 md:mb-0">
                   <div class="md:flex flex-row">
@@ -103,8 +129,8 @@ const NewsLetter = () => {
                     <input required
                       type="email"
                       id='email'
-                      value={inputs.email}
-                      onChange={handleChange}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       className="form-control block w-full px-4 py-2 mb-2 md:mb-0 md:mr-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       placeholder="Enter your email"
                     />

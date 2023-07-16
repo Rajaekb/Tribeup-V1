@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
-import ContactForm from "../components/ContactForm";
+import ContactForm2 from "../components/ContactForm2";
 import { useTranslations } from "next-intl";
 
 const Contact = () => {
@@ -73,7 +73,7 @@ const Contact = () => {
                         </div>
                         <div class="flex  md:w-[500px] w-full md:gab-8 justify-between text-gray-200">
                             <div class=" w-full md:max-w-lg">
-                                <ContactForm />
+                                <ContactForm2 />
                             </div>
                         </div>
                     </div>
