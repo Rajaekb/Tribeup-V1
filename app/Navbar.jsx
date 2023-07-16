@@ -3,12 +3,15 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from 'next/link';
 import BurgerMenu from "./[locale]/components/BurgerMenu";
+import { useRouter } from 'next/router';
 
 
 const Navbar = () => {
 
 
   const t = useTranslations('Index');
+  const router = useRouter();
+  const HideBurgerMenu = router.pathname === '/about';
 
 
   return (
@@ -28,7 +31,7 @@ const Navbar = () => {
               className=" object-contain  " />
 
             <h1 className="text-gray-400  md:text-5xl text-2xl text-strock-gray ">
-              TRIBEUP
+              TRIBEUPeee
             </h1>
 
 
@@ -45,7 +48,7 @@ const Navbar = () => {
 
 
 
-            <BurgerMenu />
+            {!HideBurgerMenu && <BurgerMenu />}
 
           </div>
         </div>

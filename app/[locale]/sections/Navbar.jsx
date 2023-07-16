@@ -53,7 +53,7 @@ const Navbar = () => {
 
 
 
-            <BurgerMenu />
+            {pathname === "/" ? <BurgerMenu /> : null}
           </div>
         </div>
 
