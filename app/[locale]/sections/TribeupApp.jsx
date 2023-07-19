@@ -20,7 +20,7 @@ function TribeupApp() {
 
 
   return (
-    <section id="TribeupApp">
+    <section id="ourproduct">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

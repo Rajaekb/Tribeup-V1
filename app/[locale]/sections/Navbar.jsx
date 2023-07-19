@@ -8,6 +8,7 @@ import BurgerMenu from "../components/BurgerMenu";
 import logotripeup from '../../public/logolaed.png'
 import { useRouter } from "next/navigation";
 import { usePathname } from 'next-intl/client';
+import { useState } from "react";
 
 const Navbar = () => {
 
@@ -15,6 +16,8 @@ const Navbar = () => {
   const t = useTranslations('Index');
   const locale = useLocale();
   const pathname = usePathname();
+  const [mobileNav, setMobileNav] = useState(false)
+
 
   return (
     <nav
@@ -54,6 +57,35 @@ const Navbar = () => {
 
 
             {pathname === "/" ? <BurgerMenu /> : null}
+            {/**mobile menu 
+            <nav class="sm:hidden sticky top-0 z-10 w-full bg-black text-white border-gray-200  ">
+              <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+
+                <div className=' inline-flex items-center p-2 ml-3 text-3xl text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 duration-300 ease-in-out transition '
+                  onClick={() => setMobileNav(!mobileNav)}>
+                  <ion-icon name={mobileNav ? 'close' : 'menu'}></ion-icon>
+                </div>
+
+                <div class=" w-full md:block md:w-auto" id="navbar-default">
+                  <ul className={`z-10  md:hidden absolute bg-black text-white text-md dark:bg-[#0A0118] dark:text-white left-0 w-full pl-9 transition-all duration-500 ease-in-out ${mobileNav ? 'top-15 ' : 'top-[-650px]'}`}>
+                    {
+                      links.map(({ name, to, id }) => (
+                        <Link to={to} smooth={true} offset={-100} duration={500} >
+
+                          <li key={name} className='text-xl my-7'>
+                            <div className='text-bold cursor-pointer hover:text-gray-400 duration-500'>{name}</div>
+                          </li>
+                        </Link>
+                      ))
+                    }
+
+
+                  </ul>
+
+                </div>
+              </div>
+            </nav>*/}
+            {/**End mobile menu */}
           </div>
         </div>
 

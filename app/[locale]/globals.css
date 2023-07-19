@@ -124,7 +124,7 @@ aside {
 }
 
 .btn-container {
-  position: fixed;
+  position: absolute;
 }
 
 .text-strock-gray {

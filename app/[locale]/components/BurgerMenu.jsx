@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 
 import { Link } from 'react-scroll';
 import { AnimatePresence, motion, useCycle } from "framer-motion";
@@ -11,17 +11,12 @@ export default function BurgerMenu() {
   const links = [
     { name: t('home'), to: "Home", id: 1 },
     { name: t("aboutus"), to: "About", id: 2 },
-    { name: t("portfolio"), to: "Portfolio", id: 2 },
-    { name: t("news"), to: "Insights", id: 3 },
+    { name: t("howtribeupwork"), to: "getstarted", id: 2 },
+    { name: t("ourproduct"), to: "ourproduct", id: 3 },
     { name: t("contact"), to: "Contact", id: 4 }
   ];
 
-  const itemVariants = {
-    closed: {
-      opacity: 0
-    },
-    open: { opacity: 1 }
-  };
+
 
   const sideVariants = {
     closed: {
@@ -42,10 +37,11 @@ export default function BurgerMenu() {
 
 
   const [open, cycleOpen] = useCycle(false, true);
+  //const [mobileNav, setMobileNav] = useState(false)
 
   return (
-    <main>
-      <AnimatePresence >
+    <main className='relative'>
+      <AnimatePresence>
         {open && (
           <motion.aside
             initial={{ width: 0 }}
@@ -56,7 +52,7 @@ export default function BurgerMenu() {
               width: 0,
               transition: { delay: 0.7, duration: 0.3 }
             }}
-            className="opacity-90 top-0 "
+            className="opacity-100 sticky top-0 z-30 w-full md:w-[80%] absolute max-w-screen-xl"
           >
             <motion.div
               className="flex flex-col text-[#FDA500] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
@@ -78,7 +74,7 @@ export default function BurgerMenu() {
           </motion.aside>
         )}
       </AnimatePresence>
-      <div className="btn-container">
+      <div className="btn-container z-50">
         <div onClick={cycleOpen}>{open
 
           ?
@@ -99,6 +95,9 @@ export default function BurgerMenu() {
         }</div>
 
       </div>
+
+
+
     </main>
   );
 }

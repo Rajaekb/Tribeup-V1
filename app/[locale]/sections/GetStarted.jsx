@@ -14,7 +14,7 @@ const GetStarted = () => {
   const t = useTranslations('Index');
 
   return (
-    <section className=" relative">
+    <section className=" relative" id='getstarted'>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
