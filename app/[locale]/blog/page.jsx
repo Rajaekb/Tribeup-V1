@@ -74,7 +74,7 @@ export default async function Page() {
                 </motion.div>
 
 
-                <div className='grid grid-cols-3 gap-6  sm:mx-12 mx-5 '>
+                <div className='grid md:grid-cols-3 grid-cols-1 gap-6  sm:mx-12 mx-5 '>
                     {posts.map((item) => (
 
                         <>

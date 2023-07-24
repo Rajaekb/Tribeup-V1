@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 import { Link } from 'react-scroll';
 import { AnimatePresence, motion, useCycle } from "framer-motion";
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function BurgerMenu() {
 
@@ -18,6 +18,7 @@ export default function BurgerMenu() {
     { name: t("contact"), to: "Contact", id: 7 }
   ];
 
+  const locale = useLocale();
 
 
   const sideVariants = {
@@ -67,13 +68,14 @@ export default function BurgerMenu() {
 
 
               {links.map(({ name, to, id }) => (
-                <Link to={to} key={id} smooth={true} offset={-100} duration={500}>
+                <Link to={to} key={id} smooth={true} offset={-100} duration={500} locale={locale}>
                   {name}
                   <hr className='border border-[#FEBF03]/50 m-1 mt-5 w-44 mx-auto' />
 
                 </Link>
 
               ))}
+
             </motion.div>
           </motion.aside>
         )}

@@ -100,7 +100,7 @@ export default async function Page({ params }) {
                 viewport={{ once: false, amount: 0.25 }}>
 
 
-                <div className=' text-gray-300 sm:text-xl text-md tracking-[.05em] sm:leading-normal leading-relaxed pt-5 z-10 mx-64'>
+                <div className=' text-gray-300 sm:text-xl text-md tracking-[.05em] sm:leading-normal leading-relaxed pt-5 z-10  mx-5 md:mx-64'>
 
                     <div className=''>
                         <h1 className='text-4xl flex justify-center '>{data.title}</h1>

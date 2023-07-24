@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="absolute sm:w-[95%] w-[85%] inset-0">
         <div className="flex justify-between ">
           <Link href="/">
-            <div className="flex items-center justify-between gap-3 sticky top-0 ">
+            <div className="flex items-center justify-between  md:gap-3 sticky top-0 ">
               <Image src={logotripeup} alt="logo" fill className=" object-contain -ml-12 md:-ml-20 " />
               <h1 className="text-gray-400 md:text-5xl text-2xl text-stroke-gray ml-12 pl-5 md:pl-20">TRIBEUP</h1>
             </div>
@@ -31,17 +31,17 @@ const Navbar = () => {
             <Link href="/about" className="hidden sm:block" duration={500}>
               <h2>{t('aboutus')}</h2>
             </Link>
-            <Link href="/blog" className="hidden sm:block" locale={locale}>
-              <h2>{t('news')}</h2>
+            <Link href="/blog" locale={locale}>
+              <h2>Blog</h2>
             </Link>
             <Link href="/contact" className="hidden sm:block" duration={500}>
               <h2>{t('contact')}</h2>
             </Link>
 
-            <a type="button" onClick={() => router.push(`/en/${pathname}`)}>
+            <a type="button" className='hidden sm:block' onClick={() => router.push(`/en/${pathname}`)}>
               En
             </a>
-            <a type="button" onClick={() => router.push(`/fr/${pathname}`)}>
+            <a type="button" className='hidden sm:block' onClick={() => router.push(`/fr/${pathname}`)}>
               FR
             </a>
 
