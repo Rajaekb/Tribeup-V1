@@ -40,7 +40,7 @@ export default function BurgerMenu() {
   //const [mobileNav, setMobileNav] = useState(false)
 
   return (
-    <main className='relative'>
+    <main className=''>
       <AnimatePresence>
         {open && (
           <motion.aside
@@ -48,14 +48,15 @@ export default function BurgerMenu() {
             animate={{
               width: 400,
             }}
+
             exit={{
               width: 0,
               transition: { delay: 0.7, duration: 0.3 }
             }}
-            className="opacity-100 sticky top-0 z-30 w-full md:w-[80%] absolute max-w-screen-xl"
+            className="opacity-100 sticky top-0 z-30 w-[800px] md:w-[400px] absolute ml-[-150px] md:-ml-[-25px] md:max-w-screen-xl"
           >
             <motion.div
-              className="flex flex-col text-[#FDA500] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
+              className="flex flex-col justify-between text-[#FDA500] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
               initial="closed"
               animate="open"
               exit="closed"
@@ -86,7 +87,7 @@ export default function BurgerMenu() {
           </div>
           :
 
-          <div class="space-y-2">
+          <div class="space-y-2 -mr-[50px] absolute">
             <div class="w-8 h-0.5 bg-gray-300"></div>
             <div class="w-8 h-0.5 bg-gray-300"></div>
             <div class="w-8 h-0.5 bg-gray-300"></div>

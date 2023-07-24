@@ -43,7 +43,6 @@ body {
   height: 438px;
   top: 0px;
   right: 0px;
-
   background: #c2b55e;
   filter: blur(190px);
 }
@@ -125,6 +124,8 @@ aside {
 
 .btn-container {
   position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .text-strock-gray {
