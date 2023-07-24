@@ -34,7 +34,7 @@ const GetStarted = () => {
           <TypingText title={t('howtribeupwork')} textStyles="text-center" />
         </div>
 
-        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="Brand">
+        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="imabrand">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className={`flex-1`}
@@ -65,7 +65,7 @@ const GetStarted = () => {
             </div>
           </motion.div>
         </div>
-        <div className=" flex justify-between lg:flex-row flex-col gap-10 " id="Athlete">
+        <div className=" flex justify-between lg:flex-row flex-col gap-10 " id="imanathlete">
 
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
