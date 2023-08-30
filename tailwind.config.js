@@ -13,6 +13,10 @@ module.exports = {
       fontFamily: {
         strawford: "Strawford,cursive",
       },
+
+      backgroundImage: {
+        hero: "url('../public/bg-1.jpg');",
+      },
     },
   },
   plugins: [],

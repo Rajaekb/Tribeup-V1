@@ -56,7 +56,7 @@ export default function BurgerMenu() {
               width: 0,
               transition: { delay: 0.7, duration: 0.3 }
             }}
-            className="opacity-100 sticky top-0 z-30 w-[800px] md:w-[400px] absolute ml-[-250px] md:-ml-[-25px] md:max-w-screen-xl"
+            className="bg-white opacity-100 sticky top-0 z-30 w-[800px] md:w-[400px] absolute ml-[-250px] md:-ml-[-25px] md:max-w-screen-xl"
           >
             <motion.div
               className="flex flex-col justify-between text-[#FDA500] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
@@ -80,7 +80,7 @@ export default function BurgerMenu() {
           </motion.aside>
         )}
       </AnimatePresence>
-      <div className="btn-container z-50">
+      <div className="btn-container z-50 py-12">
         <div onClick={cycleOpen}>{open
 
           ?

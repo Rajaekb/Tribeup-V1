@@ -4,33 +4,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { fadeIn } from '../utils/motion';
 
-export const exploreWorlds = [
-  {
-    id: "world-1",
-    imgUrl: '/sport1nb.png',
-    title: "Basketball",
-  },
-  {
-    id: "world-2",
-    imgUrl: '/sport2nb.png',
-    title: "The Cycling",
-  },
-  {
-    id: "world-3",
-    imgUrl: "/sport3.jpg",
-    title: "Bridge to Success",
-  },
-  {
-    id: "world-4",
-    imgUrl: "/sport4nb.png",
-    title: "Paradise Island",
-  },
-  {
-    id: "world-5",
-    imgUrl: '/sport5nb.png',
-    title: "Hawkins Labs",
-  },
-];
 
 const PortfolioCard = ({ id, imgUrl, title, index, active, handleClick }) => (
 
