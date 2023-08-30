@@ -5,6 +5,7 @@ import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion'
 import { TypingText } from '../components';
 import { Link } from 'react-scroll';
 import Image from 'next/image';
+import rugbyImg from '../../public/rugby.png'
 import arrowYellow from '../../public/arrowyellow.png'
 import { useTranslations } from 'next-intl';
 
@@ -16,19 +17,31 @@ const Hero = () => {
 
   return (
 
-    <section id="hero ">
+    <section id="hero">
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="h-screen bg-hero flex justify-center items-center overflow-hidden px-8 " id="home">
-          <div className=' w-[80%] my-10 sm:my-32  '>
+        <div className='h-screen flex sm:flex-row flex-col justify-between gap-10 overflow-hidden mt-10 mx-10' id="home">
+          <div className='flex-1 pt-24'>
+            <div className='flex items-center'>
+              <motion.div
+                variants={slideIn('left', 'tween', 0.2, 1)}
+              >
+                <div className='sm:mt-5 sm:w-60 w-20 '>
+                  <div className='border border-[#912CC9] m-1 rounded-lg' />
+                </div>
+              </motion.div>
+              <motion.h1 variants={slideIn('left', 'tween', 0.2, 1)}>
+                <TypingText title={t('n1athlete')} />
+              </motion.h1>
+            </div>
 
             <br />
             <motion.h2
               variants={textVariant(0.5)}
-              className='  font-mono text-4xl sm:text-5xl text-center uppercase  text-gray-300 tracking-[.05em] font-bold  sm:leading-normal leading-relaxed px-8 leading-normal	 '>
+              className=' text-4xl sm:text-6xl text-gray-300 tracking-[.10em] font-bold uppercase sm:leading-normal leading-relaxed'>
 
 
               {t('buildtoconnect')}</motion.h2>
@@ -36,31 +49,36 @@ const Hero = () => {
 
             <motion.div
               variants={textVariant(0.2)}
-              className='flex justify-center  gap-5'>
+              className='flex  gap-5'>
               <Link to="Brand" smooth={true} offset={-100} duration={500}>
-                <div className='border-[3px] border-white opacity-75 hover:opacity-100 rounded-2xl'>
-                  <div className='border border-white m-1 rounded-2xl'>
+                <div className='border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+                  <div className='border border-[#912CC9] m-1'>
                     <button className=" sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
                   </div>
                 </div>
               </Link>
-
+              <Link to="Athlete" smooth={true} offset={-100} duration={500}>
+                <div className='border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+                  <div className='border border-[#912CC9] m-1'>
+                    <button className=" sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imanathlete')}</button>
+                  </div>
+                </div>
+              </Link>
             </motion.div>
           </div>
           <motion.div
-            variants={fadeIn('up', 'tween', 0.2, 1)}>
-            <div className='sm:flex-1'>
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className=' rounded-lg flex-1 '>
+            <div className='  flex justify-center items-center  rounded-lg   w-full h-[550px]'>
+              <video className='rounded-lg  w-full md:h-[550px]  object-cover' muted autoPlay loop>
+                <source
+                  src="https://appilab.vercel.app/video/workingvideo.mp4" type="video/mp4" />
 
-              <Link to="About" smooth={true} offset={-100} duration={500}>
-                <Image
-                  src={arrowYellow}
-                  alt="logo"
-                  className="fixed right-0  -bottom-4  rotate-180 animate-bounce w-[150px] h-[150px] object-contain z-10 cursor-pointer " />
-
-              </Link>
-
-
+              </video>
             </div>
+
+
+
           </motion.div>
 
 
@@ -68,7 +86,7 @@ const Hero = () => {
 
 
       </motion.div>
-    </section >
+    </section>
   )
 };
 

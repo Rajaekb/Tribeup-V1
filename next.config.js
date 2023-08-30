@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["images.pexels.com", "media.graphassets.com"],
+    domains: [
+      "images.pexels.com",
+      "media.graphassets.com",
+      "appilab.vercel.app",
+    ],
   },
 
   eslint: {

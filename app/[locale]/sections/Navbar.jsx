@@ -4,7 +4,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import BurgerMenu from '../components/BurgerMenu';
-import logo from '../../public/logo4.png';
+import logo from '../../public/logoappilabnav.png';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next-intl/client';
 import { useState } from 'react';
@@ -21,14 +21,19 @@ const Navbar = () => {
       <div className="absolute sm:w-[95%] w-[85%] inset-0">
         <div className="flex justify-between mx-8 ">
           <Link href="/">
-            <div className="flex items-center justify-between  md:gap-3 sticky top-0 ">
+            <div className="flex flex-row items-center mt-5">
               <Image
                 src={logo}
-                alt='logoappi'
-                width={200}
+                alt="logo"
+                width={60}
+                height={50}
+                className=" object-contain" />
+              <h1 className="text-gray-400 font-bold text-5xl uppercase text-strock-gray p-2">
+                Appilab
+              </h1>
 
-              />
             </div>
+
           </Link>
 
           <div className="text-white py-12 cursor-pointer flex justify-between gap-5 md:gap-8 tracking-[.10em] right-0 tracking-[.25em]">
