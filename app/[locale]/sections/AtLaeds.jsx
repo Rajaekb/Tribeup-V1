@@ -26,21 +26,21 @@ const AtLaeds = () => {
             variants={textVariant(0.5)}
             className="text-gray-300 md:text-7xl sm:text-5xl text-3xl md:leading-[100px] sm:leading-normal text-center	font-bold mb-16">
 
-            {t('at')}<span className='font-bold text-[#FEBF03]'>TRIBEUP</span>     {t('attribeup')}</motion.p>
+            {t('attribeup')}</motion.p>
 
           <motion.div
             variants={textVariant(1.1)}
             className='flex gap-5'>
             <Link to="Brand" smooth={true} offset={-100} duration={500}>
-              <div className='border-[3px] border-[#FEBF03] opacity-75 hover:opacity-100'>
-                <div className='border border-[#FEBF03] m-1'>
+              <div className='border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+                <div className='border border-[#912CC9] m-1'>
                   <button className=" sm:p-4 p-2 font-bold sm:tracking-[.25em] tracking-[.10em] hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">  {t('imabrand')}</button>
                 </div>
               </div>
             </Link>
             <Link to="Athlete" smooth={true} offset={-100} duration={500}>
-              <div className='border-[3px] border-[#FEBF03] opacity-75 hover:opacity-100'>
-                <div className='border border-[#FEBF03] m-1 '>
+              <div className='border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+                <div className='border border-[#912CC9] m-1 '>
                   <button className="font-bold sm:tracking-[.25em] tracking-[.10em] sm:p-4 p-2 ease-in-out duration-300  hover:scale-110 text-white" type="submit">  {t('imanathlete')}</button>
 
                 </div>
