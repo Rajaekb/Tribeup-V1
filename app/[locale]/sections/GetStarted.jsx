@@ -27,7 +27,7 @@ const GetStarted = () => {
             variants={slideIn('left', 'tween', 0.8, 1)}
             className="flex">
             <div className='mt-5 sm:w-60 w-20'>
-              <div className='border border-[#FDA500] m-1 rounded-lg' />
+              <div className='border border-[#912CC9] m-1 rounded-lg' />
             </div>
 
           </motion.div>
