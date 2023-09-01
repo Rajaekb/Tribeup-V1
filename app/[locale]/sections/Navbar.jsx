@@ -4,7 +4,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import BurgerMenu from '../components/BurgerMenu';
-import logo from '../../public/logoappilabnav.png';
+import logo from '../../public/logoappilabvert.png';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next-intl/client';
 import { useState } from 'react';
@@ -36,7 +36,7 @@ const Navbar = () => {
 
           </Link>
 
-          <div className="text-white py-12 cursor-pointer flex justify-between gap-5 md:gap-8 tracking-[.10em] right-0 tracking-[.25em]">
+          <div className="text-white py-12 cursor-pointer flex justify-between gap-5 md:gap-8 text-[#d0ff05] tracking-[.10em] right-0 tracking-[.25em]">
             <Link href="/about" className="hidden sm:block" duration={500}>
               <h2>{t('aboutus')}</h2>
             </Link>

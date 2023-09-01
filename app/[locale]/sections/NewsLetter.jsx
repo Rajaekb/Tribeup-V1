@@ -98,7 +98,7 @@ const NewsLetter = () => {
   };
   return (
 
-    <section className=" bg-gradient-to-br from-[#F86811] from-5% via-[#FDA500] to-[#FEC001] text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
+    <section className=" bg-[#d0ff05] to-[#FEC001] text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"

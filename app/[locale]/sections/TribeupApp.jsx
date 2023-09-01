@@ -33,7 +33,7 @@ function TribeupApp() {
             variants={slideIn('left', 'tween', 0.2, 1)}
             className="flex">
             <div className='sm:mt-5 sm:w-60 w-20 '>
-              <div className='border border-[#FDA500] m-1 rounded-lg' />
+              <div className='border border-[#d0ff05] m-1 rounded-lg' />
             </div>
 
 
@@ -68,32 +68,27 @@ function TribeupApp() {
               variants={textVariant(0.8)}
               className=' flex  gap-5 '>
               <Link to="Brand" smooth={true} offset={-100} duration={500}>
-                <div className='border-[3px] border-[#FDA500] opacity-75 hover:opacity-100'>
-                  <div className='border border-[#FDA500] m-1 p-1 '>
-                    <button className="  hover:opacity-100 ease-in-out duration-300   cursor-pointer" type="submit">
+                <button className="  hover:opacity-100 ease-in-out duration-300   cursor-pointer" type="submit">
 
-                      <Image
-                        src={appleicone}
-                        alt="tribeup"
-                        width={150}
-                        height={80}
-                        className=" object-contain" /></button>
-                  </div>
-                </div>
+                  <Image
+                    src={appleicone}
+                    alt="tribeup"
+                    width={150}
+                    height={80}
+                    className=" object-contain" /></button>
+
               </Link>
               <Link to="Athlete" smooth={true} offset={-100} duration={500}>
-                <div className='border-[3px] border-[#FDA500] opacity-75 hover:opacity-100'>
-                  <div className='border border-[#FEBF03] m-1 p-1'>
-                    <button className="  hover:opacity-100 ease-in-out duration-300 cursor-pointer" type="submit">
-                      <Image
-                        src={googleicone}
-                        alt="tribeup"
-                        width={150}
-                        height={80}
-                        className=" object-contain" />
-                    </button>
-                  </div>
-                </div>
+
+                <button className="  hover:opacity-100 ease-in-out duration-300 cursor-pointer" type="submit">
+                  <Image
+                    src={googleicone}
+                    alt="tribeup"
+                    width={150}
+                    height={80}
+                    className=" object-contain" />
+                </button>
+
               </Link>
             </motion.div>
           </div>
