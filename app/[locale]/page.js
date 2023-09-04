@@ -3,7 +3,7 @@ import Link from "next-intl/link";
 import AlertMessage from "./AlertMessage";
 import {
   About,
-  AtLaeds,
+  Atappilab,
   Contact,
   GetStarted,
   Hero,
@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <Hero />
       <About />
-      <AtLaeds />
+      <Atappilab />
       <GetStarted />
 
       <NewsLetter />

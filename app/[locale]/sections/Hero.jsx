@@ -52,15 +52,15 @@ const Hero = () => {
               className='flex  gap-5'>
               <Link to="Brand" smooth={true} offset={-100} duration={500}>
                 <div className='border-[3px] border-[#912CC9]  rounded-xl opacity-75 hover:opacity-100'>
-                  <div className='border border-[#912CC9] m-1 rounded-xl'>
-                    <button className=" bg-[#912CC9]  rounded-xl sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('getstarted')}</button>
+                  <div className='border border-[#912CC9] m-1 rounded-lg'>
+                    <button className=" bg-[#912CC9]  rounded-lg sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('getstarted')}</button>
                   </div>
                 </div>
               </Link>
               <Link to="Athlete" smooth={true} offset={-100} duration={500}>
                 <div className='border-[3px] border-[#912CC9] rounded-xl opacity-75 hover:opacity-100'>
-                  <div className='border border-[#912CC9] rounded-xl m-1'>
-                    <button className=" sm:p-4 p-2 font-bold rounded-xl tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('contactus')}</button>
+                  <div className='border border-[#912CC9] rounded-lg m-1'>
+                    <button className=" sm:p-4 p-2 font-bold rounded-lg tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('contactus')}</button>
                   </div>
                 </div>
               </Link>
