@@ -1,6 +1,6 @@
 'use client';
 import { useTranslations } from "next-intl";
-import { Contact } from "../sections-old-tribeup";
+import { Contact } from "../sections";
 
 
 

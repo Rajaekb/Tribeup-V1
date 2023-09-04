@@ -55,7 +55,7 @@ function TribeupApp() {
             </div>
           </motion.div>
           <div className=' flex-1 my-10 sm:my-40'>
-
+            <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-5'>Appistadium</h2>
             <motion.p
               variants={textVariant(0.5)}
               className=' text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>

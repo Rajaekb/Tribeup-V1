@@ -56,7 +56,7 @@ function OurTeam() {
             variants={slideIn('left', 'tween', 0.8, 1)}
             className="flex">
             <div className='mt-5 sm:w-60 w-20 '>
-              <div className='border border-[#d0ff05] m-1 rounded-lg' />
+              <div className='border border-[#d0ff05] m-1 rounded-xl' />
             </div>
 
           </motion.div>
@@ -76,7 +76,7 @@ function OurTeam() {
                   />
                 </motion.div>
                 <motion.div variants={textVariant(index * 0.2 + 0.2)}
-                  className='lg:-mt-12 md:max-h-10 lg:max-h-20  bg-[#912CC9] font-bold tracking-[.10em] flex justify-center items-center text-[12px] lg:text-md text-white rounded-xl lg:rounded-3xl  p-2 md:p-4 '>
+                  className='lg:-mt-12 md:max-h-10 lg:max-h-20  bg-[#912CC9] font-bold tracking-[.10em] flex justify-center items-center text-[12px] lg:text-md text-white rounded-xl lg:rounded-2xl  p-2 md:p-4 '>
 
                   {member.name} <br /> {member.role}
 

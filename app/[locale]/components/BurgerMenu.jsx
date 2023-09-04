@@ -56,10 +56,10 @@ export default function BurgerMenu() {
               width: 0,
               transition: { delay: 0.7, duration: 0.3 }
             }}
-            className="bg-white opacity-100 sticky top-0 z-30 w-[800px] md:w-[400px] absolute ml-[-250px] md:-ml-[-25px] md:max-w-screen-xl"
+            className="bg-black opacity-100 sticky top-0 z-30 w-[800px] md:w-[400px] absolute ml-[-250px] md:-ml-[-25px] md:max-w-screen-xl"
           >
             <motion.div
-              className="flex flex-col justify-between text-[#FDA500] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
+              className="flex flex-col justify-between text-[#912CC9] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
               initial="closed"
               animate="open"
               exit="closed"
@@ -70,7 +70,7 @@ export default function BurgerMenu() {
               {links.map(({ name, to, id }) => (
                 <Link to={to} key={id} smooth={true} offset={-100} duration={500} locale={locale}>
                   {name}
-                  <hr className='border border-[#FEBF03]/50 m-1 mt-5 w-44 mx-auto' />
+                  <hr className='border border-[#d0ff05] m-1 mt-5 w-44 mx-auto' />
 
                 </Link>
 
@@ -86,16 +86,16 @@ export default function BurgerMenu() {
           ?
 
           <div className="block ">
-            <div className="block absolute w-8 h-0.5 duration-500 ease-in-out bg-gray-300 -rotate-45 "></div>
-            <div className="block absolute w-8 h-0.5 duration-500 ease-in-out bg-gray-300 opacity-0"></div>
-            <div className="block absolute w-8 h-0.5 duration-500 ease-in-out bg-gray-300 rotate-45"></div>
+            <div className="block absolute w-8 h-0.5 duration-500 ease-in-out bg-[#d0ff05] -rotate-45 "></div>
+            <div className="block absolute w-8 h-0.5 duration-500 ease-in-out bg-[#d0ff05] opacity-0"></div>
+            <div className="block absolute w-8 h-0.5 duration-500 ease-in-out bg-[#d0ff05] rotate-45"></div>
           </div>
           :
 
           <div class="space-y-2 -mr-[50px] absolute">
-            <div class="w-8 h-0.5 bg-gray-300"></div>
-            <div class="w-8 h-0.5 bg-gray-300"></div>
-            <div class="w-8 h-0.5 bg-gray-300"></div>
+            <div class="w-8 h-0.5 bg-[#d0ff05]"></div>
+            <div class="w-8 h-0.5 bg-[#d0ff05]"></div>
+            <div class="w-8 h-0.5 bg-[#d0ff05]"></div>
           </div>
 
         }</div>
