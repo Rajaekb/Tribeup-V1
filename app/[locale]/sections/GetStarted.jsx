@@ -31,7 +31,7 @@ const GetStarted = () => {
             </div>
 
           </motion.div>
-          <TypingText title={t('howtribeupwork')} textStyles="text-center" />
+          <TypingText title={t('ourservices')} textStyles="text-center" />
         </div>
 
         <div className="flex lg:flex-row flex-col gap-8 justify-between" id="imabrand">

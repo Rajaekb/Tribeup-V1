@@ -5,38 +5,39 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
 import { useTranslations } from 'next-intl';
 
-import Alain from '../../public/team/alaineliasy.jpg';
-import clara from '../../public/team/ClaraOberhoessel.jpg';
-import im from '../../public/team/img.jpg';
-import py from '../../public/team/py.jpg';
-import TD from '../../public/team/ThomasDidillon.jpg';
+import etienne from '../../public/team/EtienneLambot.png';
+import abdellah from '../../public/team/AbdellahJaize.png';
+import salah from '../../public/team/Salah_Eddine.jpg';
+import rajae from '../../public/team/kobirajae.jpg';
+import rafael from '../../public/team/default.png';
 
 const teamMembers = [
   {
-    name: 'Alain Elyasi',
+    name: 'Etienne Lambot',
     role: 'CEO / Founder',
-    imageSrc: Alain,
+    imageSrc: etienne,
   },
   {
-    name: 'Thomas Didillon',
-    role: 'Lorem / ipsum',
-    imageSrc: TD,
+    name: 'Abdellah Jaize',
+    role: 'Tech Lead Mobile Developer',
+    imageSrc: abdellah,
   },
   {
-    name: 'Clara Oberhoessel',
-    role: 'Lorem ipsum',
-    imageSrc: clara,
+    name: 'Salah Eddine',
+    role: 'Mobile Developer',
+    imageSrc: salah,
   },
   {
-    name: 'Lorem Ipsum',
-    role: 'Lorem / ipsum',
-    imageSrc: py,
+    name: 'Kobi Rajae',
+    role: 'Front end Developer',
+    imageSrc: rajae,
   },
   {
-    name: 'Lorem Ipsum',
-    role: 'Lorem / ipsum',
-    imageSrc: im,
+    name: 'Rafael',
+    role: 'Full Stack Developer',
+    imageSrc: rafael,
   },
+
 ];
 
 function OurTeam() {
@@ -75,7 +76,7 @@ function OurTeam() {
                   />
                 </motion.div>
                 <motion.div variants={textVariant(index * 0.2 + 0.2)}
-                  className='lg:-mt-12 md:max-h-10 lg:max-h-20 bg-gradient-to-br from-[#F86811] from-5% via-[#FDA500] to-[#FEC001] flex justify-center items-center text-[10px] lg:text-md text-black rounded-xl lg:rounded-3xl  p-2 md:p-4 '>
+                  className='lg:-mt-12 md:max-h-10 lg:max-h-20  bg-[#912CC9] font-bold tracking-[.10em] flex justify-center items-center text-[12px] lg:text-md text-white rounded-xl lg:rounded-3xl  p-2 md:p-4 '>
 
                   {member.name} <br /> {member.role}
 
