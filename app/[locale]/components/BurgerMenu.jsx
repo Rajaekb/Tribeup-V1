@@ -11,11 +11,10 @@ export default function BurgerMenu() {
   const links = [
     { name: t('home'), to: "Home", id: 1 },
     { name: t("aboutus"), to: "About", id: 2 },
-    { name: t("imabrand"), to: "imabrand", id: 3 },
-    { name: t("imanathelete"), to: "imanathlete", id: 4 },
-    { name: t("ourproduct"), to: "ourproduct", id: 5 },
-    { name: t("ourteam"), to: "ourteam", id: 6 },
-    { name: t("contact"), to: "Contact", id: 7 }
+
+    { name: t("ourproduct"), to: "ourproduct", id: 3 },
+    { name: t("ourteam"), to: "ourteam", id: 4 },
+    { name: t("contact"), to: "Contact", id: 5 }
   ];
 
   const locale = useLocale();
@@ -59,7 +58,7 @@ export default function BurgerMenu() {
             className="bg-black opacity-100 sticky top-0 z-30 w-[800px] md:w-[400px] absolute ml-[-250px] md:-ml-[-25px] md:max-w-screen-xl"
           >
             <motion.div
-              className="flex flex-col justify-between text-[#912CC9] text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
+              className="flex flex-col justify-between text-white text-2xl gap-8 text-center cursor-pointer tracking-[.10em] sm:right-0 mt-20"
               initial="closed"
               animate="open"
               exit="closed"
