@@ -51,16 +51,16 @@ const Hero = () => {
               variants={textVariant(0.2)}
               className='flex  gap-5'>
               <Link to="Brand" smooth={true} offset={-100} duration={500}>
-                <div className='border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
-                  <div className='border border-[#912CC9] m-1'>
-                    <button className=" sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
+                <div className='border-[3px] border-[#912CC9]  rounded-xl opacity-75 hover:opacity-100'>
+                  <div className='border border-[#912CC9] m-1 rounded-xl'>
+                    <button className=" bg-[#912CC9]  rounded-xl sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('getstarted')}</button>
                   </div>
                 </div>
               </Link>
               <Link to="Athlete" smooth={true} offset={-100} duration={500}>
-                <div className='border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
-                  <div className='border border-[#912CC9] m-1'>
-                    <button className=" sm:p-4 p-2 font-bold tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imanathlete')}</button>
+                <div className='border-[3px] border-[#912CC9] rounded-xl opacity-75 hover:opacity-100'>
+                  <div className='border border-[#912CC9] rounded-xl m-1'>
+                    <button className=" sm:p-4 p-2 font-bold rounded-xl tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('contactus')}</button>
                   </div>
                 </div>
               </Link>

@@ -8,7 +8,7 @@ import { TypingText } from "../components";
 
 import { Link } from 'react-scroll';
 import { useTranslations } from 'next-intl';
-import appimg from "../../public/phonetribeup.png"
+import appimg from "../../public/appistadium.png"
 import appleicone from '../../public/appleicone.png'
 import googleicone from '../../public/googleicone.png'
 
@@ -49,8 +49,8 @@ function TribeupApp() {
               <Image
                 src={appimg}
                 alt="tribeup"
-                width={500}
-                height={500}
+                width={600}
+
                 className=" object-contain sm:-mt-20 mr-14 rotate-12" />
             </div>
           </motion.div>
@@ -73,8 +73,7 @@ function TribeupApp() {
                   <Image
                     src={appleicone}
                     alt="tribeup"
-                    width={150}
-                    height={80}
+                    width={200}
                     className=" object-contain" /></button>
 
               </Link>
@@ -84,8 +83,7 @@ function TribeupApp() {
                   <Image
                     src={googleicone}
                     alt="tribeup"
-                    width={150}
-                    height={80}
+                    width={200}
                     className=" object-contain" />
                 </button>
 

@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next-intl/link";
-import logotripeup from '../../public/logolaed.png'
+import logotripeup from '../../public/logoappilabvert.png'
 
 
 
@@ -24,15 +24,15 @@ const Footer = () => {
                 height={50}
                 className=" object-contain" />
               <h1 className="text-gray-400 font-bold text-5xl text-strock-gray p-2">
-                TRIBEUP
+                Appilab
               </h1>
 
             </div>
 
             <p class="max-w-xs mt-4 text-sm text-gray-400">
-              At TRIBEUP we help you define and sharpen your vision and then help you bring it to life in a way that connects emotionally with your audience
+              At Appilab we help you define and sharpen your vision and then help you bring it to life in a way that connects emotionally with your audience
             </p>
-            <div class="flex mt-8 space-x-6 text-[#FDA500]">
+            <div class="flex mt-8 space-x-6 text-[#d0ff05]">
               <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
                 <span class="sr-only"> Facebook </span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
