@@ -123,7 +123,7 @@ const Footer = () => {
 
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="block text-sm text-gray-500 pb-7 sm:text-center dark:text-gray-400">© 2023 <a href="#" target="_blank" class="hover:underline">Laeds</a>. All Rights Reserved.
+      <span class="block text-sm text-gray-500 pb-7 sm:text-center dark:text-gray-400">© 2023 <a href="#" target="_blank" class="hover:underline">Appilab</a>. All Rights Reserved.
       </span>
     </footer>
   )
