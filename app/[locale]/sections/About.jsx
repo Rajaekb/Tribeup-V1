@@ -24,6 +24,7 @@ const About = () => {
         <motion.div
           variants={textVariant(0.3)}
         >
+
           <Image
             src={rug}
             alt="rug2"
