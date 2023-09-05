@@ -37,16 +37,21 @@ const GetStarted = () => {
         <div className="flex lg:flex-row flex-col gap-8 justify-between" id="imabrand">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
-            className={`flex-1`}
+            className={`flex-1 flex justify-center`}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-          >
-            <Image
-              src={sp2}
-              alt="get-started"
-              className="sm:w-[800px] sm:h-[800px] w-full h-full object-cover "
-            />
+          >     <video className='rounded-lg w-[50%]' muted autoPlay loop>
+              <source
+                src="https://appilab.vercel.app/video/Foot_Runner_Record.mp4" type="video/mp4" />
+
+            </video>
+            <video className='rounded-lg w-[50%]' muted autoPlay loop>
+              <source
+                src="https://appilab.vercel.app/video/shoot_runner.mp4" type="video/mp4" />
+
+            </video>
+
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
