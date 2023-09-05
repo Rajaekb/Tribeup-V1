@@ -32,15 +32,15 @@ const Atappilab = () => {
             variants={textVariant(1.1)}
             className='flex gap-5'>
             <Link to="Brand" smooth={true} offset={-100} duration={500}>
-              <div className='rounded-xl border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
-                <div className='rounded-lg border border-[#912CC9] m-1'>
-                  <button className=" rounded-lg bg-[#912CC9] sm:p-4 p-2 font-bold sm:tracking-[.25em] tracking-[.10em] hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">  {t('getstarted')}</button>
+              <div className=' border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+                <div className=' border border-[#912CC9] m-1'>
+                  <button className="  bg-[#912CC9] sm:p-4 p-2 font-bold sm:tracking-[.25em] tracking-[.10em] hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">  {t('getstarted')}</button>
                 </div>
               </div>
             </Link>
             <Link to="Athlete" smooth={true} offset={-100} duration={500}>
-              <div className='rounded-xl border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
-                <div className=' rounded-lg border border-[#912CC9] m-1 '>
+              <div className=' border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+                <div className='  border border-[#912CC9] m-1 '>
                   <button className="font-bold sm:tracking-[.25em] tracking-[.10em] sm:p-4 p-2 ease-in-out duration-300  hover:scale-110 text-white" type="submit">  {t('contactus')}</button>
 
                 </div>

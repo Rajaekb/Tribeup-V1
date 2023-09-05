@@ -63,24 +63,27 @@ export default async function Page() {
 
                 <motion.div
                     variants={slideIn('left', 'tween', 0.8, 1)}
-                    className="flex my-10 justify-center">
+                    className="flex mt-10 justify-center">
                     <div className='sm:mt-5 sm:w-60 w-20 '>
-                        <div className='border border-[#FEBF03] m-1 rounded-lg' />
+                        <div className='border border-[#d0ff05] m-1 rounded-lg' />
                     </div>
                     <TypingText title="Blog" />
                     <div className='sm:mt-5 sm:w-60 w-20 '>
-                        <div className='border border-[#FEBF03] m-1 rounded-lg' />
+                        <div className='border border-[#d0ff05] m-1 rounded-lg' />
                     </div>
+
                 </motion.div>
 
+                <h2 className="text-strock-gray text-5xl md:text-7xl uppercase mx-auto sm:leading-normal leading-relaxed py-16">
 
+                    Discover Our Latests Articles</h2>
                 <div className='grid md:grid-cols-3 grid-cols-1 gap-6  sm:mx-12 mx-5 '>
                     {posts.map((item) => (
 
                         <>
 
 
-                            <div class="max-w-sm bg-stone-900 border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                            <div class="max-w-sm bg-stone-900 border border-[#d0ff05] shadow ">
                                 <a key={item._id} href={`/blog/${item.slug}`}>
 
                                     <Image
@@ -88,7 +91,7 @@ export default async function Page() {
                                         alt="blog"
                                         width={400}
                                         height={500}
-                                        className=' w-full h-52 object-cover grayscale rounded-xl '
+                                        className=' w-full h-52 object-cover grayscale  '
                                     />
 
                                     <div class="p-5">
@@ -97,8 +100,8 @@ export default async function Page() {
                                         <h2 class="mb-2 text-gray-300 sm:text-xl text-md tracking-[.05em] sm:leading-normal leading-relaxed">{item.title.slice(0, 50)}</h2>
                                         <h3 className='mb-3 font-normal text-gray-400'>{item.description}</h3>
 
-                                        <div className='border-[3px] border-[#FDA500]  inline-flex items-center mt-5 opacity-80 hover:opacity-100 cursor-pointer'>
-                                            <div className='border border-[#FDA500] m-1  inline-flex items-center opacity-80 hover:opacity-100 cursor-pointer'>
+                                        <div className='border-[3px] border-[#912CC9]  inline-flex items-center mt-5 opacity-80 hover:opacity-100 cursor-pointer'>
+                                            <div className='border border-[#912CC9] m-1  inline-flex items-center opacity-80 hover:opacity-100 cursor-pointer'>
                                                 <button className="text-white p-3 font-light tracking-[.25em] hover:bg-gray-500 text-sm px-3 
                                              duration-300 ease-in-out text-center inline-flex items-center" href="#">
                                                     Read more
