@@ -58,7 +58,7 @@ const GetStarted = () => {
           >
 
 
-            <h2 className=' text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('mobileapps')}</h2>
+            <h2 className=' text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('games')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
               <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('imabrandtext')}
 
@@ -89,6 +89,37 @@ const GetStarted = () => {
           >
 
 
+            <h2 className='text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('mobileapps')}</h2>
+            <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
+              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('imabrandtext')}
+
+              </p>
+            </div>
+          </motion.div>
+        </div>
+        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="imabrand">
+          <motion.div
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className="flex-1"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+          >
+            <Image
+              src={sp3}
+              alt="get-started"
+              className="sm:w-[800px] sm:h-[800px] w-full h-full object-cover "
+            />
+          </motion.div>
+          <motion.div
+            variants={fadeIn('up', 'tween', 0.8, 1)}
+            className="md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 p-16 h-96 -mr-16 sm:mt-52 z-10 -mt-[550px]"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
+          >
+
+
             <h2 className='text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('webapps')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
               <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('imabrandtext')}
@@ -97,6 +128,7 @@ const GetStarted = () => {
             </div>
           </motion.div>
         </div>
+
 
 
       </motion.div>
