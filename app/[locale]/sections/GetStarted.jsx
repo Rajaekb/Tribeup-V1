@@ -46,11 +46,7 @@ const GetStarted = () => {
                 src="https://appilab.vercel.app/video/Foot_Runner_Record.mp4" type="video/mp4" />
 
             </video>
-            <video className='rounded-lg w-[50%]' muted autoPlay loop>
-              <source
-                src="https://appilab.vercel.app/video/shoot_runner.mp4" type="video/mp4" />
 
-            </video>
 
           </motion.div>
           <motion.div
