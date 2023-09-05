@@ -24,14 +24,14 @@ const About = () => {
         <motion.div
           variants={textVariant(0.3)}
         >
-
-          <Image
-            src={rug}
-            alt="rug2"
-            className="hidden sm:block object-contain -mt-20 sm:ml-20 "
-            width={800}
-            height={800} />
-
+          <div className="bg-[#d0ff05] pt-16 pl-4  h-[400px] ">
+            <Image
+              src={rug}
+              alt="rug2"
+              className="  hidden sm:block object-contain w-[900] sm:ml-10"
+              width={800}
+              height={800} />
+          </div>
 
         </motion.div>
         <div className="sm:-mr-50 mt-16 ">
