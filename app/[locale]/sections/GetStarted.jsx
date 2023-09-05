@@ -6,8 +6,8 @@ import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, slideIn, fadeIn, planetVariants } from '../utils/motion';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import sp2 from "../../public/mobile/m2.jpg"
-import sp3 from "../../public/mobile/m7.jpg"
+import sp2 from "../../public/mobile/m7.jpg"
+import sp3 from "../../public/mobile/m4.jpg"
 
 const GetStarted = () => {
 
@@ -106,7 +106,7 @@ const GetStarted = () => {
             viewport={{ once: false, amount: 0.25 }}
           >
             <Image
-              src={sp3}
+              src={sp2}
               alt="get-started"
               className="sm:w-[800px] sm:h-[800px] w-full h-full object-cover "
             />

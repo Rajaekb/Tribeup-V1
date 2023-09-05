@@ -60,7 +60,7 @@ const About = () => {
           </motion.div>
           <motion.p
             variants={textVariant(0.5)}
-            className="text-gray-300 sm:text-3xl text-xl tracking-[.10em] sm:leading-normal leading-relaxed pt-5 z-10">
+            className=" text-gray-300 sm:text-3xl text-xl tracking-[.10em] sm:leading-normal leading-relaxed pt-5 z-10">
             {t('aboutustext')}</motion.p>
 
         </div>
