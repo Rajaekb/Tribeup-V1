@@ -61,7 +61,7 @@ function TribeupApp() {
               className=' text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
 
 
-              {t('tribeupdesc')}</motion.p>
+              {t('appistadium')}</motion.p>
             <br />
 
             <motion.div
