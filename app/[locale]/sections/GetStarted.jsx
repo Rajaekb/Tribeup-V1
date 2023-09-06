@@ -60,7 +60,7 @@ const GetStarted = () => {
 
             <h2 className=' text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('games')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
-              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('imabrandtext')}
+              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('gamesdesc')}
 
               </p>
             </div>
@@ -91,7 +91,7 @@ const GetStarted = () => {
 
             <h2 className='text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('mobileapps')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
-              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('imabrandtext')}
+              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('mobileappsdesc')}
 
               </p>
             </div>
