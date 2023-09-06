@@ -1,6 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
@@ -44,7 +44,7 @@ const About = () => {
                 </div>
 
 
-                <div className="text-gray-300 sm:text-2xl text-md tracking-[.05em] sm:leading-normal leading-relaxed  z-10 mx-64">
+                <motion.div variants={fadeIn('up', 'tween', 0.8, 1)} className="text-gray-300 sm:text-2xl text-md tracking-[.05em] sm:leading-normal leading-relaxed  z-10 mx-64">
 
                     <h2 className="text-strock-gray text-5xl md:text-7xl uppercase py-5 sm:leading-normal leading-relaxed py-10">La Technologie Au Service De Votre Croissance</h2>
                     <div className="bg-[#d0ff05] pt-5 pl-36 h-[700px] mb-36 w-[250px]">
@@ -60,7 +60,7 @@ const About = () => {
 
                     <p>{t('aboutusp2')}</p><br />
                     <motion.div
-                        variants={textVariant(1.2)}
+                        variants={fadeIn('up', 'tween', 1, 1)}
                         className=' mb-24 grid gap-6 grid-cols-2 sm:grid-cols-3 text-md font-light tracking-[.10em] text-gray-500 dark:text-gray-300'>
                         <div className='flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineCheckCircle color='#912CC9' size={50} /></div><h3 className='p-2'> Agilité et transparence.</h3></div>
                         <div className='flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineAntDesign color="#912CC9" size={50} /></div><h3 className='p-2 '> Design et ergonomie.</h3></div>
@@ -71,7 +71,7 @@ const About = () => {
 
                     </motion.div>
 
-                </div>
+                </motion.div>
 
             </motion.div>
         </section>)

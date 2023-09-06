@@ -5,6 +5,7 @@ import { TypingText } from "../components";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import rug from '../../public/rug2.jpg'
+import { AiOutlineRightCircle } from "react-icons/ai";
 
 
 
@@ -61,7 +62,14 @@ const About = () => {
           <motion.p
             variants={textVariant(0.5)}
             className=" text-gray-300 sm:text-3xl text-xl tracking-[.10em] sm:leading-normal leading-relaxed pt-5 z-10">
-            {t('aboutustext')}</motion.p>
+            {t('aboutustext')}
+          </motion.p>
+          <motion.div variants={textVariant(0.5)}
+            className="absolute right-14 cursor-pointer hover:scale-120">
+            <a href="/about">
+              <AiOutlineRightCircle color='#912CC9' size={50} className="hover:scale-110 ease-in-out duration-300 mt-10" />
+            </a>
+          </motion.div>
 
         </div>
       </motion.div>
