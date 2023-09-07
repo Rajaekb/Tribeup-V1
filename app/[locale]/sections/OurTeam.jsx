@@ -5,40 +5,8 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
 import { useTranslations } from 'next-intl';
 
-import etienne from '../../public/team/EtienneLambot.png';
-import abdellah from '../../public/team/AbdellahJaize.png';
-import salah from '../../public/team/Salah_Eddine.jpg';
-import rajae from '../../public/team/kobirajae.jpg';
-import rafael from '../../public/team/default.png';
-
-const teamMembers = [
-  {
-    name: 'Etienne Lambot',
-    role: 'CEO / Founder',
-    imageSrc: etienne,
-  },
-  {
-    name: 'Abdellah Jaize',
-    role: 'Tech Lead Mobile Developer',
-    imageSrc: abdellah,
-  },
-  {
-    name: 'Salah Eddine',
-    role: 'Mobile Developer',
-    imageSrc: salah,
-  },
-  {
-    name: 'Kobi Rajae',
-    role: 'Front end Developer',
-    imageSrc: rajae,
-  },
-  {
-    name: 'Rafael',
-    role: 'Full Stack Developer',
-    imageSrc: rafael,
-  },
-
-];
+import Etienne from '../../public/team/EtienneLambot.png';
+import Sebastien from '../../public/team/SebastienBellin.png';
 
 function OurTeam() {
   const t = useTranslations('Index');
@@ -62,31 +30,31 @@ function OurTeam() {
           </motion.div>
           <TypingText title={t('ourteam')} textStyles="text-center" />
         </div>
-        <div className='flex justify-center bg-stone-900'>
-          <div className='grid sm:grid-cols-3 md:grid-cols-5 gap-3 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24'>
-            {teamMembers.map((member, index) => (
-              <div key={index} className='sm:flex-1 w-36 md:w-full flex flex-col justify-center items-center'>
-                <motion.div variants={textVariant(index * 0.2)}>
-                  <Image
-                    src={member.imageSrc}
-                    alt="rugbyimage"
-                    className='rounded-3xl'
-                    width={240}
-                    height={300}
-                  />
-                </motion.div>
-                <motion.div variants={textVariant(index * 0.2 + 0.2)}
-                  className='lg:-mt-12 md:max-h-10 lg:max-h-20  bg-[#912CC9] font-bold tracking-[.10em] flex justify-center items-center text-[12px] lg:text-md text-white rounded-xl lg:rounded-2xl  p-2 md:p-4 '>
+        <div className='flex justify-center items-center bg-stone-900'>
+          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24'>
 
-                  {member.name} <br /> {member.role}
 
-                </motion.div>
-              </div>
-            ))}
+            <div className=' space-y-2'>
+              <Image src={Etienne} />
+              <h2 className='text-2xl text-[#912CC9]'>Etienne Lambot</h2>
+              <h3 className=' text-[#d0ff05]'>CEO / Co-Founder</h3>
+              <p className=' text-gray-300'>
+                {t('etiennedesc')}              </p>
+            </div>
+            <div className='space-y-2'>
+              <Image src={Sebastien} />
+              <h2 className=' text-2xl text-[#912CC9]'>Sebastien Bellin</h2>
+              <h3 className='text-[#d0ff05]'>CEO / Co-Founder</h3>
+              <p className=' text-gray-300 '>
+                {t('sebastiendesc')} </p>
+            </div>
+
+
           </div>
+
         </div>
       </motion.div>
-    </section>
+    </section >
   )
 }
 

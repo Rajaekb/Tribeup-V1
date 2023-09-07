@@ -34,7 +34,8 @@
     "at": "At",
     "attribeup": "Do you want to develop a unique way to engage your audience? Let them play with your brand! we'll create an immersive and memorable experience for your target audience and contribute to elevating your brand to the next level.",
     "imanathelete": "I'm an Athlete",
-    "imabrand": "I'm a brand",
+    "imabrand": "I'm a Brand",
+    "imafounder": "I'm a Founder",
     "ourservices": "Our Services",
     "games": "Video Games",
     "gamesdesc": "Step into the realm of game creation at APPILAB Studio, where imagination meets innovation. We're passionate about sculpting immersive digital experiences that transport players to extraordinary worlds. Our process begins with visionary concepts, meticulous design, and expert coding, ensuring seamless gameplay. Rigorous testing guarantees perfection, and our commitment extends beyond launch with continuous updates and community engagement. As technology evolves, we embrace new horizons, all while fostering collaboration and passion within our team. Join us on this thrilling adventure, where gaming transcends boundaries, and every click unleashes a new epic. Welcome to the future of interactive entertainment.",
@@ -45,6 +46,7 @@
     "webappsdesc": "Embark on a voyage into the realm of web application creation with APPILAB, where ingenuity and technology converge. We are driven to create powerful web solutions that transform industries and elevate user experiences. Our journey begins with visionary concepts, meticulous design, and expert development, ensuring robust and user-friendly web applications. Thorough testing guarantees reliability, and our commitment extends beyond launch with continuous updates and community engagement. As technology advances, we embrace new opportunities, fostering collaboration and passion within our team. Join us on this exhilarating adventure, where web applications redefine possibilities, and every click opens doors to a digital future. Welcome to the forefront of web innovation.",
 
     "imabrandtext": "We want to help brands develop and define their voice. The times may have changed, but our love for creativity and problem-solving hasn't. The world of influencing is a complex one. The LADS connects your brand with the right athlete. We listen to you, help you, and think with you. Choosing us means less worries. We connect you with athletes and do all the work. We take shootings of you and help you create campaigns to promote your sponsors. Get in touch so that we can kickstart your branding today.",
+
     "imanatheletetext": "Contract negotiation and guidance : We ensure a crystal clear contract between you and the brands. We manage every legal aspect, so you won’t have to worry. We guide you through the whole process. Brand and campaign management We find and manage the brands with and for you. Making a difference is our core job, that’s why we think with you about campaigns and content. Digital campaign creation We strategically create the digital content matching your preferences and the brand’s requirements. With our expertise, we will enhance your digital reputation",
     "subscribetitle": "Do not miss any updates.",
     "subscribe": "Subscribe to the Newsletter",
@@ -55,6 +57,9 @@
 
     "ourproduct": "Our Product",
 
-    "tribeupdesc": "The ultimate social media app and marketplace for high-level athletes. Connect with fellow athletes, showcase your achievements, and discover exclusive products tailored to your needs. Join our community and unlock a world of opportunities to enhance your athletic journey. Download AthleteConnect now and connect, compete, and inspire with the world's elite athletes."
+    "tribeupdesc": "The ultimate social media app and marketplace for high-level athletes. Connect with fellow athletes, showcase your achievements, and discover exclusive products tailored to your needs. Join our community and unlock a world of opportunities to enhance your athletic journey. Download AthleteConnect now and connect, compete, and inspire with the world's elite athletes.",
+
+    "etiennedesc": "I am an entrepreneur with a passion for the world of video games and sport, specially football, with a background in digital marketing, gamification and online advertising. These technical skills enabled me to found APPISTADIUM, an innovative platform offering a unique gaming experience to sports fans and targeted advertising opportunities to brand advertisers. As a former professional E-sporter, I understand the importance of fan engagement to the success of a project and the opportunities for innovation in this fast growing field.",
+    "sebastiendesc": "A customer-focused business development and sales executive with a proven track record, specializing in the area of start-ups and new projects. With 15+ years of professional basketball experience, I understand what it takes to achieve outstanding results and compete at highest levels of competition. I have taken all this acquired knowledge and applied it strategically to the business of sports/health in order to help companies, individuals, leagues, teams, coaches and athletes achieve their goals."
   }
 }

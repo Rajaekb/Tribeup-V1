@@ -16,7 +16,7 @@
     "getstarted": "Démarer",
     "contactus": "Contactez Nous",
     "aboutus": "Qui Sommes Nous!",
-    "aboutustext": " Fondée en 2021, notre agence tout-en-un met en lumière les marques et les athlètes. Pour ce faire, nous exploitons les forces uniques de chaque entreprise et de chaque athlète afin de construire une feuille de route personnalisée vers le succès.",
+    "aboutustext": " APPILAB est un studio de développement de solutions mobiles axé sur les jeux de simulation sportive hyper occasionnels. Nous mettons en relation les amateurs de sport avec les marques sponsors grâce à nos jeux mobiles ultra-casual.",
     "aboutusp1": "À notre agence, nous comprenons que chaque marque et chaque athlète a une histoire distincte à raconter et un public cible spécifique à engager. Nous prenons le temps de bien comprendre nos clients, leurs valeurs et leurs objectifs, ce qui nous permet de développer des stratégies sur mesure qui résonnent auprès de leur public et créent des liens significatifs.",
     "aboutusp1": " Pour y parvenir, nous employons une équipe pluridisciplinaire d'experts spécialisés dans différents domaines tels que le marketing, le branding et la gestion sportive. Notre équipe comprend des marketeurs chevronnés, des professionnels créatifs, des spécialistes des médias sociaux et des agents sportifs passionnés par l'élévation des marques et des athlètes vers de nouveaux sommets.",
     "aboutusp2": " Une équipe de développeurs expérimentés et passionnés, spécialisés dans la création des applications web et mobile innovantes. nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins et créer des solutions personnalisées qui les aideront à atteindre leurs objectifs. Notre processus de développement est basé sur :.",
@@ -31,6 +31,8 @@
     "attribeup": "Souhaitez-vous développer un moyen unique d'engager votre public ? Laissez-les jouer avec votre marque ! Nous créerons une expérience immersive et mémorable pour votre public cible et contribuerons à élever votre marque au niveau supérieur",
     "imanathelete": "Je suis un athlete",
     "imabrand": "Je suis une Marque",
+    "imafounder": "Je suis un Fondateur",
+
     "ourservices": "Nos Services",
     "games": "Jeux Video",
     "gamesdesc": "Plongez dans le monde de la création de jeux chez APPILAB Studio, où l'imagination rencontre l'innovation. Nous sommes passionnés par la création d'expériences numériques immersives qui transportent les joueurs vers des mondes extraordinaires. Notre processus commence par des concepts visionnaires, une conception méticuleuse et une programmation experte, garantissant un gameplay fluide. Des tests rigoureux garantissent la perfection, et notre engagement va au-delà du lancement avec des mises à jour continues et une interaction communautaire. À mesure que la technologie évolue, nous embrassons de nouveaux horizons, tout en favorisant la collaboration et la passion au sein de notre équipe. Rejoignez-nous dans cette aventure palpitante, où le jeu transcende les frontières, et chaque clic déclenche une nouvelle épopée. Bienvenue dans le futur du divertissement interactif.",
@@ -48,6 +50,8 @@
     "getintouch": "Prenez contact.",
     "ourteam": "Notre Equipe",
     "ourproduct": "Notre Produit",
-    "tribeupdesc": "L'application ultime de médias sociaux et de marché pour les athlètes de haut niveau. Connectez-vous avec d'autres athlètes, mettez en valeur vos réalisations et découvrez des produits exclusifs adaptés à vos besoins. Rejoignez notre communauté et ouvrez-vous à un monde d'opportunités pour améliorer votre parcours sportif. Téléchargez AthleteConnect maintenant et connectez-vous, compétitionnez et inspirez-vous avec les athlètes d'élite du monde entier."
+    "tribeupdesc": "L'application ultime de médias sociaux et de marché pour les athlètes de haut niveau. Connectez-vous avec d'autres athlètes, mettez en valeur vos réalisations et découvrez des produits exclusifs adaptés à vos besoins. Rejoignez notre communauté et ouvrez-vous à un monde d'opportunités pour améliorer votre parcours sportif. Téléchargez AthleteConnect maintenant et connectez-vous, compétitionnez et inspirez-vous avec les athlètes d'élite du monde entier.",
+    "etiennedesc": "Je suis un entrepreneur passionné par le monde des jeux vidéo et du sport, en particulier le football, avec une formation en marketing numérique, en gamification et en publicité en ligne. Ces compétences techniques m'ont permis de fonder APPISTADIUM, une plateforme innovante offrant une expérience de jeu unique aux fans de sport et des opportunités publicitaires ciblées aux annonceurs. En tant qu'ancien e-sportif professionnel, je comprends l'importance de l'engagement des fans pour le succès d'un projet et les opportunités d'innovation dans ce domaine en pleine croissance.",
+    "sebastiendesc": "Un cadre commercial et de développement axé sur le client, ayant fait ses preuves, spécialisé dans le domaine des start-ups et des nouveaux projets. Avec plus de 15 ans d'expérience dans le domaine du basket-ball professionnel, je comprends ce qu'il faut faire pour obtenir des résultats exceptionnels et être compétitif au plus haut niveau. J'ai pris toutes ces connaissances acquises et les ai appliquées stratégiquement au secteur du sport et de la santé afin d'aider les entreprises, les individus, les ligues, les équipes, les entraîneurs et les athlètes à atteindre leurs objectifs."
   }
 }

@@ -4,7 +4,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import rug from '../../public/rug2.jpg'
+import rug from '../../public/sport.png'
 import { AiOutlineRightCircle } from "react-icons/ai";
 
 
@@ -29,13 +29,13 @@ const About = () => {
             <Image
               src={rug}
               alt="rug2"
-              className="  hidden sm:block object-contain w-[900] sm:ml-10"
-              width={800}
-              height={800} />
+              className="  hidden sm:block object-contain w-[1000] sm:ml-10"
+              width={1000}
+              height={1000} />
           </div>
 
         </motion.div>
-        <div className="sm:-mr-50 mt-16 ">
+        <div className="sm:-mr-50 mt-6 ">
           <div className='flex items-center'>
             <motion.div
               variants={slideIn('left', 'tween', 0.8, 1)}
