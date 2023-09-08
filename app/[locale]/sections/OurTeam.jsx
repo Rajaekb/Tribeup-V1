@@ -44,7 +44,7 @@ function OurTeam() {
 
             <div className=' space-y-2'>
               <motion.div variants={textVariant(0.8)} >
-                <Image width={300} src={Etienne} /></motion.div>
+                <Image width={320} src={Etienne} /></motion.div>
               <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Etienne Lambot</motion.h2>
               <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>CEO / Co-Founder</motion.h3>
               <motion.p variants={textVariant(1.2)} className=' text-gray-300'>

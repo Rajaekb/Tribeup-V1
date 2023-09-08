@@ -43,19 +43,20 @@ function TribeupApp() {
             <TypingText title={t('ourproduct')} />
           </motion.h1>
         </div>
-        <div className='flex items-center lg:flex-row flex-col min-h-[100vh] gap-10 space-y-10 sm:space-y-0  bg-stone-900 justify-between text-white sm:h-auto  py-40  px-20 '>
+        <div className='flex items-center lg:flex-row flex-col min-h-[100vh] space-y-10 sm:space-y-0  bg-stone-900  text-white sm:h-auto  py-40  '>
           <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
-            <div className='  sm:flex-1'>
+            <div className='sm:flex-1'>
               <Image
                 src={appimg}
                 alt="tribeup"
-                width={600}
+                width={800}
 
-                className=" object-contain sm:-mt-20 mr-14 rotate-12" />
+                className=" object-contain sm:-mt-20  " />
             </div>
           </motion.div>
-          <div className=' flex-1 my-10 sm:my-40'>
-            <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-5'>Appistadium</h2>
+          <div className='flex-1  space-y-5  sm:my-40 -ml-10 mr-10'>
+            <motion.h2 className='text-strock-white text-3xl md:text-7xl uppercase'>Appistadium</motion.h2>
+            <motion.h3 className='text-md text-[#d0ff05] tracking-[.10em]  sm:leading-normal leading-relaxed'> {t('appistadiumtitle')}</motion.h3>
             <motion.p
               variants={textVariant(0.5)}
               className=' text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
