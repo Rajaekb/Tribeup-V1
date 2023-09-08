@@ -31,7 +31,7 @@ function OurTeam() {
           <TypingText title={t('ourteam')} textStyles="text-center" />
         </div>
         <div className='flex flex-col space-y-5 pt-10 justify-center items-center bg-stone-900'>
-          <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-5'>Meet Our LeaderShip</h2>
+          <motion.h2 variants={textVariant(0.2)} className='text-strock-white text-3xl md:text-7xl uppercase py-5'>Meet Our LeaderShip</motion.h2>
           <motion.p
             variants={textVariant(0.5)}
             className=' mx-56 text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
@@ -42,19 +42,22 @@ function OurTeam() {
 
 
             <div className=' space-y-2'>
-              <Image src={Etienne} />
-              <h2 className='text-2xl text-[#912CC9]'>Etienne Lambot</h2>
-              <h3 className=' text-[#d0ff05]'>CEO / Co-Founder</h3>
-              <p className=' text-gray-300'>
-                {t('etiennedesc')}              </p>
+              <motion.div variants={textVariant(0.8)} >
+                <Image src={Etienne} /></motion.div>
+              <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Etienne Lambot</motion.h2>
+              <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>CEO / Co-Founder</motion.h3>
+              <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
+                {t('etiennedesc')}              </motion.p>
             </div>
-            <div className='space-y-2'>
-              <Image src={Sebastien} />
-              <h2 className=' text-2xl text-[#912CC9]'>Sebastien Bellin</h2>
-              <h3 className='text-[#d0ff05]'>CEO / Co-Founder</h3>
-              <p className=' text-gray-300 '>
-                {t('sebastiendesc')} </p>
+            <div className=' space-y-2'>
+              <motion.div variants={textVariant(0.8)} >
+                <Image src={Sebastien} /></motion.div>
+              <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Sebastien Bellin</motion.h2>
+              <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>Co-Founder</motion.h3>
+              <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
+                {t('sebastiendesc')}              </motion.p>
             </div>
+
 
 
           </div>
