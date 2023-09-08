@@ -5,7 +5,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
 import { useTranslations } from 'next-intl';
 
-import Etienne from '../../public/team/EtienneLambot.png';
+import Etienne from '../../public/team/EtienneLambot.jpeg';
 import Sebastien from '../../public/team/SebastienBellin.png';
 
 function OurTeam() {
@@ -44,7 +44,7 @@ function OurTeam() {
 
             <div className=' space-y-2'>
               <motion.div variants={textVariant(0.8)} >
-                <Image src={Etienne} /></motion.div>
+                <Image width={300} src={Etienne} /></motion.div>
               <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Etienne Lambot</motion.h2>
               <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>CEO / Co-Founder</motion.h3>
               <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
@@ -52,7 +52,7 @@ function OurTeam() {
             </div>
             <div className=' space-y-2'>
               <motion.div variants={textVariant(0.8)} >
-                <Image src={Sebastien} /></motion.div>
+                <Image src={Sebastien} width={300} /></motion.div>
               <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Sebastien Bellin</motion.h2>
               <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>Co-Founder</motion.h3>
               <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
