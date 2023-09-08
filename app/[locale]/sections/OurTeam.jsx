@@ -31,13 +31,14 @@ function OurTeam() {
           <TypingText title={t('ourteam')} textStyles="text-center" />
         </div>
         <div className='flex flex-col space-y-5 pt-10 justify-center items-center bg-stone-900'>
-          <motion.h2 variants={textVariant(0.2)} className='text-strock-white text-3xl md:text-7xl uppercase py-5'>Meet Our LeaderShip</motion.h2>
+          <motion.h2 variants={textVariant(0.2)} className='text-strock-white text-3xl md:text-5xl uppercase py-5'>  {t('ourteamtitle')} </motion.h2>
           <motion.p
             variants={textVariant(0.5)}
             className=' mx-56 text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
 
 
-            We are a dynamic team of individuals who are deeply passionate about our work and fully committed to delivering superior results for our clients.</motion.p>
+            {t('ourteamdesc')}
+          </motion.p>
           <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24'>
 
 
