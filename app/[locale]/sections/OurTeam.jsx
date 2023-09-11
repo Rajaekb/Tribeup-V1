@@ -30,16 +30,16 @@ function OurTeam() {
           </motion.div>
           <TypingText title={t('ourteam')} textStyles="text-center" />
         </div>
-        <div className='flex flex-col space-y-5 pt-10 justify-center items-center bg-stone-900'>
-          <motion.h2 variants={textVariant(0.2)} className='text-strock-white text-3xl md:text-5xl uppercase py-5'>  {t('ourteamtitle')} </motion.h2>
+        <div className='flex flex-col sm:space-y-5 pt-10 justify-center items-center bg-stone-900'>
+          <motion.h2 variants={textVariant(0.2)} className='text-strock-white mx-8 text-3xl md:text-5xl uppercase py-5'>  {t('ourteamtitle')} </motion.h2>
           <motion.p
             variants={textVariant(0.5)}
-            className=' mx-56 text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
+            className=' mx-8 sm:mx-56 text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
 
 
             {t('ourteamdesc')}
           </motion.p>
-          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10  md:p-24'>
+          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24  '>
 
 
             <div className=' space-y-2'>
@@ -50,7 +50,7 @@ function OurTeam() {
               <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
                 {t('etiennedesc')}              </motion.p>
             </div>
-            <div className=' space-y-2'>
+            <div className='  space-y-2'>
               <motion.div variants={textVariant(0.8)} >
                 <Image src={Sebastien} width={300} /></motion.div>
               <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Sebastien Bellin</motion.h2>

@@ -20,9 +20,10 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
+        className='flex flex-col sm:block space-y-24'
 
       >
-        <div className='flex mx-8 my-24 items-center'>
+        <div className='flex  mx-8 my-24  items-center'>
           <motion.div
             variants={slideIn('left', 'tween', 0.8, 1)}
             className="flex">
@@ -34,7 +35,7 @@ const GetStarted = () => {
           <TypingText title={t('ourservices')} textStyles="text-center" />
         </div>
 
-        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="imabrand">
+        <div className="flex md:flex-row flex-col gap-10 justify-between " id="games">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className={`flex-1 flex justify-center`}
@@ -51,7 +52,7 @@ const GetStarted = () => {
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className=" md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 md:-ml-[300px] h-[470px] px-5 sm:mt-52 z-10 "
+            className=" md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 md:-ml-[300px] h-[470px] px-5  sm:mt-52 z-10 "
 
           >
 
@@ -64,7 +65,7 @@ const GetStarted = () => {
             </div>
           </motion.div>
         </div>
-        <div className="flex lg:flex-row-reverse flex-col gap-8 justify-between" id="imabrand">
+        <div className="flex lg:flex-row-reverse flex-col gap-8 justify-between" id="mobile">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className="flex-1"
@@ -77,7 +78,7 @@ const GetStarted = () => {
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className="md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 p-16 h-96 -mr-16 sm:mt-52 z-10 -mt-[550px]"
+            className="md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 sm:p-16 p-5 h-96 -mr-16 sm:mt-52 z-10 sm:-mt-[550px]"
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
@@ -92,7 +93,7 @@ const GetStarted = () => {
             </div>
           </motion.div>
         </div>
-        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="imabrand">
+        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="web">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className="flex-1"
@@ -108,16 +109,16 @@ const GetStarted = () => {
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className="md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 p-16 h-96 -mr-16 sm:mt-52 z-10 -mt-[550px]"
+            className="md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 p-5 sm:p-16 h-96 -mr-16 sm:mt-52 z-10  sm:-mt-[550px]"
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
           >
 
 
-            <h2 className='text-strock-white text-5xl md:text-9xl uppercase py-5'>{t('webapps')}</h2>
+            <h2 className='text-strock-white text-4xl md:text-9xl uppercase py-2 sm:py-5'>{t('webapps')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
-              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('webappsdesc')}
+              <p className='text-white sm:w-[800px] w-[250] pb-24 '>{t('webappsdesc')}
 
               </p>
             </div>

@@ -21,12 +21,12 @@ const Getintouch = () => {
                     className='w-[80%]  bg-[#d0ff05] text-black font-bold mx-auto h-56  flex  items-center'
                 >
 
-                    <div className='w-full mx-16 text-2xl flex  gap-16 justify-between'>
-                        <h2 className='flex-9 justify-self-start  flex items-center  '>
+                    <div className='w-full mx-16 sm:text-2xl flex flex-col sm:flex-row  sm:gap-16 gap-5 justify-between'>
+                        <h2 className='md:flex-9 justify-self-start  flex items-center  '>
                             {t('discovertext')}
                         </h2>
                         <div className=' flex-1 flex justify-end'>
-                            <button className=' border  border-black p-5'>
+                            <button className=' border  border-black sm:p-5'>
                                 {t('discoverbtn')}
                             </button>
                         </div>

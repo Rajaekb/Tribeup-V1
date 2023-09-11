@@ -54,7 +54,7 @@ function TribeupApp() {
                 className=" object-contain sm:-mt-20  " />
             </div>
           </motion.div>
-          <div className='flex-1  space-y-5  sm:my-40 -ml-10 mr-10'>
+          <div className='flex-1  space-y-5  sm:my-40 sm:-ml-10 sm:mr-10 mx-8'>
             <motion.h2 variants={textVariant(0.2)} className='text-strock-white text-3xl md:text-7xl uppercase'>Appistadium</motion.h2>
             <motion.h3 variants={textVariant(0.5)} className='text-md text-[#d0ff05] tracking-[.25em]  sm:leading-normal leading-relaxed'> {t('appistadiumtitle')}</motion.h3>
             <motion.p
@@ -92,7 +92,7 @@ function TribeupApp() {
 
             </motion.div>
             <motion.a variants={textVariant(1.1)} href="https://www.web.appistadium.com/" target="_blank">
-              <div className=' my-5 w-[50%] border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
+              <div className=' my-5  w-full sm:w-[50%] border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
                 <div className=' border border-[#912CC9] m-1'>
                   <button className="  w-full bg-[#912CC9] sm:p-4 p-2 font-bold sm:tracking-[.25em] tracking-[.10em] hover:opacity-100 ease-in-out duration-300 text-white cursor-pointer" type="submit">  {t('website')}</button>
                 </div>
