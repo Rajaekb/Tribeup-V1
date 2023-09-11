@@ -43,7 +43,7 @@ const GetStarted = () => {
             viewport={{ once: false, amount: 0.25 }}
           >     <video className='rounded-lg w-[50%]' muted autoPlay loop>
               <source
-                src="https://appilab.vercel.app/video/Foot_Runner_Record.mp4" type="video/mp4" />
+                src="https://appilab.vercel.app/video/games.mp4" type="video/mp4" />
 
             </video>
 
@@ -52,9 +52,7 @@ const GetStarted = () => {
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
             className=" md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 md:-ml-[300px] h-[470px] px-5 sm:mt-52 z-10 "
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.25 }}
+
           >
 
 
@@ -70,9 +68,6 @@ const GetStarted = () => {
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className="flex-1"
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.25 }}
           >
             <Image
               src={sp3}

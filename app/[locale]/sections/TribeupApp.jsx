@@ -55,10 +55,10 @@ function TribeupApp() {
             </div>
           </motion.div>
           <div className='flex-1  space-y-5  sm:my-40 -ml-10 mr-10'>
-            <motion.h2 className='text-strock-white text-3xl md:text-7xl uppercase'>Appistadium</motion.h2>
-            <motion.h3 className='text-md text-[#d0ff05] tracking-[.10em]  sm:leading-normal leading-relaxed'> {t('appistadiumtitle')}</motion.h3>
+            <motion.h2 variants={textVariant(0.2)} className='text-strock-white text-3xl md:text-7xl uppercase'>Appistadium</motion.h2>
+            <motion.h3 variants={textVariant(0.5)} className='text-md text-[#d0ff05] tracking-[.25em]  sm:leading-normal leading-relaxed'> {t('appistadiumtitle')}</motion.h3>
             <motion.p
-              variants={textVariant(0.5)}
+              variants={textVariant(0.8)}
               className=' text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
 
 
@@ -91,13 +91,13 @@ function TribeupApp() {
               </Link>
 
             </motion.div>
-            <a href="https://www.web.appistadium.com/" target="_blank">
+            <motion.a variants={textVariant(1.1)} href="https://www.web.appistadium.com/" target="_blank">
               <div className=' my-5 w-[50%] border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
                 <div className=' border border-[#912CC9] m-1'>
                   <button className="  w-full bg-[#912CC9] sm:p-4 p-2 font-bold sm:tracking-[.25em] tracking-[.10em] hover:opacity-100 ease-in-out duration-300 text-white cursor-pointer" type="submit">  {t('website')}</button>
                 </div>
               </div>
-            </a>
+            </motion.a>
           </div>
 
 

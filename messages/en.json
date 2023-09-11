@@ -38,6 +38,7 @@
     "imabrand": "I'm a Brand",
     "imafounder": "I'm a Founder",
     "ourservices": "Our Services",
+
     "games": "Video Games",
     "gamesdesc": "Step into the realm of game creation at APPILAB Studio, where imagination meets innovation. We're passionate about sculpting immersive digital experiences that transport players to extraordinary worlds. Our process begins with visionary concepts, meticulous design, and expert coding, ensuring seamless gameplay. Rigorous testing guarantees perfection, and our commitment extends beyond launch with continuous updates and community engagement. As technology evolves, we embrace new horizons, all while fostering collaboration and passion within our team. Join us on this thrilling adventure, where gaming transcends boundaries, and every click unleashes a new epic. Welcome to the future of interactive entertainment.",
     "mobileapps": "Mobile Applications",
@@ -45,7 +46,12 @@
 
     "webapps": "Web Applications ",
     "webappsdesc": "Embark on a voyage into the realm of web application creation with APPILAB, where ingenuity and technology converge. We are driven to create powerful web solutions that transform industries and elevate user experiences. Our journey begins with visionary concepts, meticulous design, and expert development, ensuring robust and user-friendly web applications. Thorough testing guarantees reliability, and our commitment extends beyond launch with continuous updates and community engagement. As technology advances, we embrace new opportunities, fostering collaboration and passion within our team. Join us on this exhilarating adventure, where web applications redefine possibilities, and every click opens doors to a digital future. Welcome to the forefront of web innovation.",
-
+    "ourservicestitle": "Unlocking the Future of Innovation",
+    "ourservicestext1": "In a world driven by technology and connectivity, innovation is the key to progress. Welcome to a realm where possibilities are limitless, and ideas come to life with unparalleled expertise. At our company, we are more than just service providers; we are your partners in turning dreams into reality. ",
+    "ourservicestext2": " Our dedication to excellence and a passion for innovation define everything we do. Join us on a journey that leads to the future of digital development as we introduce you to our cutting-edge services in Game Development, Mobile Development, and Web Development. This is where the future begins, and your vision takes center stage.",
+    "resources": "Human Resources Placement",
+    "discovertext": "Does Your Needs Match Our Expertise ?",
+    "discoverbtn": "Discover Our Works",
     "imabrandtext": "We want to help brands develop and define their voice. The times may have changed, but our love for creativity and problem-solving hasn't. The world of influencing is a complex one. The LADS connects your brand with the right athlete. We listen to you, help you, and think with you. Choosing us means less worries. We connect you with athletes and do all the work. We take shootings of you and help you create campaigns to promote your sponsors. Get in touch so that we can kickstart your branding today.",
 
     "imanatheletetext": "Contract negotiation and guidance : We ensure a crystal clear contract between you and the brands. We manage every legal aspect, so you won’t have to worry. We guide you through the whole process. Brand and campaign management We find and manage the brands with and for you. Making a difference is our core job, that’s why we think with you about campaigns and content. Digital campaign creation We strategically create the digital content matching your preferences and the brand’s requirements. With our expertise, we will enhance your digital reputation",
