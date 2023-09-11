@@ -136,3 +136,35 @@ aside {
   -webkit-text-stroke: 2px white;
   color: transparent;
 }
+.anim-box {
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.anim-box::before {
+  content: "";
+  position: absolute;
+  background-image: conic-gradient(#8c4dc4 20deg, transparent 120deg);
+  width: 120%;
+  height: 120%;
+  animation: rotate 4s linear infinite;
+}
+.anim-box::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #0e1538;
+  border-radius: 16px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

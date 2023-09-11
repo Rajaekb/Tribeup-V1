@@ -13,6 +13,7 @@ import {
   TribeupApp,
 } from "./sections";
 import OurTeam from "./sections/OurTeam";
+import Getintouch from "./about/Getintouch";
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
       <NewsLetter />
       <TribeupApp />
       <OurTeam />
+      <div className=" -mt-24 ">
+        <Getintouch />
+      </div>
+
       <Contact />
     </div>
   );

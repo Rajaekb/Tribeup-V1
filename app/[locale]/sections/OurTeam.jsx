@@ -39,7 +39,7 @@ function OurTeam() {
 
             {t('ourteamdesc')}
           </motion.p>
-          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24'>
+          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10  md:p-24'>
 
 
             <div className=' space-y-2'>

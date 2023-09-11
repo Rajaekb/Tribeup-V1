@@ -18,7 +18,7 @@ const Getintouch = () => {
                 viewport={{ once: false, amount: 0.25 }}>
 
                 <motion.div variants={fadeIn('up', 'tween', 0.8, 1)}
-                    className='w-[80%]  bg-[#d0ff05] text-black font-bold mx-auto h-56 my-10 flex  items-center'
+                    className='w-[80%]  bg-[#d0ff05] text-black font-bold mx-auto h-56  flex  items-center'
                 >
 
                     <div className='w-full mx-16 text-2xl flex  gap-16 justify-between'>

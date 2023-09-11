@@ -17,7 +17,7 @@ const Contact = () => {
                 viewport={{ once: false, amount: 0.25 }}
 
             >
-                <div className=' flex my-12 items-center'>
+                <div className=' flex my-12  mt-24 items-center'>
                     <motion.div
                         variants={slideIn('left', 'tween', 0.8, 1)}
                         className="flex">
@@ -31,10 +31,10 @@ const Contact = () => {
                 <motion.div
                     variants={fadeIn('up', 'tween', 0.8, 1)}
 
-                    class="  relative flex  md:pb-20 mb-52  justify-between items-center flex-col sm:pt-0">
+                    class="  relative flex   md:pb-20 mb-52  justify-between items-center flex-col sm:pt-0">
 
 
-                    <div className="   md:w-[1200px] w-full p-10 md:h-96 h-auto bg-stone-900 bg-opacity-80 flex  md:flex-row flex-col md:gap-60 ">
+                    <div className=" z-10   md:w-[1200px] w-full p-10 md:h-96 h-auto bg-stone-900 bg-opacity-80 flex  md:flex-row flex-col md:gap-60 ">
                         <div >
                             <p class="text-gray-400 mt-2">
                                 Fill in the form to start a conversation
