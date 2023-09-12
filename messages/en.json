@@ -41,7 +41,9 @@
 
     "games": "Games Development",
     "gamesdesc": "Step into the realm of game creation at APPILAB Studio, where imagination meets innovation. We're passionate about sculpting immersive digital experiences that transport players to extraordinary worlds. Our process begins with visionary concepts, meticulous design, and expert coding, ensuring seamless gameplay. Rigorous testing guarantees perfection, and our commitment extends beyond launch with continuous updates and community engagement. As technology evolves, we embrace new horizons, all while fostering collaboration and passion within our team. Join us on this thrilling adventure, where gaming transcends boundaries, and every click unleashes a new epic. Welcome to the future of interactive entertainment.",
-    "mobileapps": " Web & Mobile Development",
+    "webmobileapps": " Web & Mobile Development",
+    "mobileapps": " Mobile Development",
+
     "mobileappsdesc": "Embark on a journey into the world of mobile app creation with APPILAB, where innovation and creativity converge. We are driven to craft engaging mobile experiences that empower users and enhance their lives. Our process commences with visionary concepts, meticulous design, and skilled development, ensuring intuitive and seamless app functionality. Thorough testing ensures excellence, and our commitment extends beyond launch with continuous updates and community engagement. As technology evolves, we embrace new horizons, fostering collaboration and passion within our team. Join us on this thrilling adventure, where mobile apps transcend expectations, and every tap unlocks a new realm of possibilities. Welcome to the future of mobile innovation.",
 
     "webapps": "Web Applications ",

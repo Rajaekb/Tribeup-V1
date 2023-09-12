@@ -50,10 +50,10 @@ const Ourservices = () => {
 
                 <motion.div
                     variants={fadeIn('up', 'tween', 1.2, 1)}
-                    className=' mb-24 mx-64 grid gap-9 grid-cols-1 sm:grid-cols-2 text-md font-light tracking-[.10em] text-gray-300'>
+                    className=' mb-24 mx-64 grid gap-9 grid-cols-1 sm:grid-cols-2 text-xl  tracking-[.10em] text-gray-300'>
                     <a href="/about/games">
                         <div className='cursor-pointer hover:bg-[#d0ff05] duration-300 ease-in-out hover:text-black flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineCheckCircle color='#912CC9' size={50} /></div><h3 className='p-2'> {t('games')}</h3></div></a>
-                    <div className='cursor-pointer hover:bg-[#d0ff05] duration-300 ease-in-out hover:text-black flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineAntDesign color="#912CC9" size={50} /></div><h3 className='p-2 '> {t('mobileapps')}</h3></div>
+                    <a href="/about/applications"><div className='cursor-pointer hover:bg-[#d0ff05] duration-300 ease-in-out hover:text-black flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineAntDesign color="#912CC9" size={50} /></div><h3 className='p-2 '> {t('webmobileapps')}</h3></div></a>
 
                     <div className='cursor-pointer hover:bg-[#d0ff05] duration-300 ease-in-out hover:text-black flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineRocket color="#912CC9" size={50} /></div><h3 className='p-2'> {t('resources')}</h3></div>
                     <div className='cursor-pointer hover:bg-[#d0ff05] duration-300 ease-in-out hover:text-black flex flex-col items-center border border-[#d0ff05] py-16 px-5'><div><AiOutlineFundView color="#912CC9" size={50} /></div><h3 className='p-2'> Academy</h3></div>
