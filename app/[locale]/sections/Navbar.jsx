@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
 
           <div className="text-white py-12 cursor-pointer flex justify-between gap-5 md:gap-8 text-[#d0ff05] tracking-[.10em] right-0 tracking-[.25em]">
-            <Link href="/about" className="hidden sm:block" duration={500}>
+            <Link href="/about" className=" hover:border-b-[#d0ff05] hidden sm:block" duration={500}>
               <h2>{t('aboutus')}</h2>
             </Link>
             <Link href="/blog" locale={locale}>
