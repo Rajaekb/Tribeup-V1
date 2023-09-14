@@ -41,7 +41,7 @@ const Hero = () => {
             <br />
             <motion.h2
               variants={textVariant(0.5)}
-              className=' text-4xl sm:text-5xl  text-gray-300 tracking-[.10em] font-bold uppercase sm:leading-normal leading-relaxed'>
+              className=' text-4xl sm:text-5xl  text-strock-white tracking-[.10em] font-bold uppercase sm:leading-normal leading-relaxed'>
 
 
               {t('buildtoconnect')}</motion.h2>
