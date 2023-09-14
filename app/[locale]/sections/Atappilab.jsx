@@ -24,7 +24,7 @@ const Atappilab = () => {
         <div className='mx-auto flex flex-col justify-center items-center sm:px-24 px-8 pt-[8%] pb-[8%] '>
           <motion.p
             variants={textVariant(0.5)}
-            className="text-gray-300 md:text-7xl sm:text-5xl text-3xl md:leading-[100px] sm:leading-normal text-center	font-bold mb-16">
+            className="text-gray-300 md:text-6xl sm:text-3xl text-xl md:leading-[80px] sm:leading-normal text-center	font-bold mb-16">
 
             {t('attribeup')}</motion.p>
 
