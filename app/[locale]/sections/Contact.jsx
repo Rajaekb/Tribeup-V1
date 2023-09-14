@@ -65,8 +65,8 @@ const Contact = () => {
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
                                 <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Rue des Guillemins no 139 boite719
-                                    4000 liège
+                                    Rue des Guillemins No 139 Boite 719
+                                    4000 Liège
                                     Belgique
 
                                 </div>
