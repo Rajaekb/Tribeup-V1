@@ -21,10 +21,10 @@ const Atappilab = () => {
         viewport={{ once: false, amount: 0.25 }}
       >
 
-        <div className='mx-auto flex flex-col justify-center items-center sm:px-24 px-8 pt-[8%] pb-[8%] space-y-[8%] '>
+        <div className='mx-auto flex flex-col justify-center items-center sm:px-24 px-8 pt-[8%] pb-[8%] space-y-[8%] sm:space-y-[60px] '>
           <motion.p
             variants={textVariant(0.5)}
-            className="text-gray-300 md:text-6xl sm:text-3xl text-2xl md:leading-[80px] sm:leading-normal leading-[40px] text-center	font-bold sm:mb-16">
+            className="text-gray-300 md:text-6xl sm:text-3xl text-2xl md:leading-[80px] sm:leading-normal leading-[40px] text-center	font-bold ">
 
             {t('attribeup')}</motion.p>
 

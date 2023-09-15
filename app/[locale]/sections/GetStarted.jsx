@@ -37,12 +37,12 @@ const GetStarted = () => {
         <div className="flex lg:flex-row flex-col justify-between " id="web">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
-            className=" "
+            className=" flex justify-center "
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
           >
-            <video className=' sm:w-[800px] sm:h-[800px] rounded-lg ' muted autoPlay loop>
+            <video className=' sm:w-[800px] sm:h-[800px] w-[50%] rounded-lg ' muted autoPlay loop>
               <source
                 src="https://appilab.vercel.app/video/Foot_Runner_Record.mp4" type="video/mp4" />
 
@@ -51,16 +51,16 @@ const GetStarted = () => {
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className=" flex-[80%] md:flex flex-grow justify-center flex-col bg-black bg-opacity-50 p-5   sm:mt-52 z-10  sm:-mt-[550px]"
+            className="  sm:flex-[80%] md:flex flex-grow justify-center flex-col bg-black bg-opacity-50 p-5 sm:mt-52 z-10  sm:-mt-[550px]"
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
           >
 
 
-            <h2 className='text-strock-white text-4xl md:text-7xl uppercase py-2 sm:py-5'>{t('games')}</h2>
-            <div className="sm:mt-[31px] flex flex-col pr-24">
-              <p className='text-white pb-24 '>{t('gamesdesc')}
+            <h2 className='text-strock-white text-4xl md:text-7xl uppercase  sm:py-5'>{t('games')}</h2>
+            <div className="sm:mt-[31px] flex flex-col sm:pr-24">
+              <p className='text-white sm:pb-24 w-full '>{t('gamesdesc')}
 
               </p>
             </div>
@@ -71,16 +71,20 @@ const GetStarted = () => {
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className="flex-1"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.25 }}
           >
             <Image
               src={sp3}
               alt="get-started"
-              className="sm:w-[800px] sm:h-[800px] w-full h-full object-cover "
+              className="sm:w-[800px] sm:h-[800px] object-cover "
+
             />
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className="md:flex-1 md:flex justify-center flex-col  sm:p-16 p-5 h-96 -mr-16 sm:mt-52 z-10 sm:-mt-[550px]"
+            className="md:flex-1   md:flex justify-center flex-col  sm:p-16 p-5 h-96 -mr-16 sm:mt-52 z-10 bg-black/50 w-full h-full -mt-[680px] sm:-mt-[550px]"
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
@@ -89,13 +93,13 @@ const GetStarted = () => {
 
             <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-5'>{t('mobileapps')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
-              <p className='text-white sm:w-[800px] w-[250] pb-5'>{t('mobileappsdesc')}
+              <p className='text-white sm:w-[800px] pb-5'>{t('mobileappsdesc')}
 
               </p>
             </div>
           </motion.div>
         </div>
-        <div className="flex lg:flex-row flex-col gap-8 justify-between" id="web">
+        <div className="flex lg:flex-row flex-col gap-8 justify-between " id="web">
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className="flex-1"
@@ -111,7 +115,7 @@ const GetStarted = () => {
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className="md:flex-1 md:flex justify-center flex-col bg-black bg-opacity-50 p-5 sm:p-16 h-96 -mr-16 sm:mt-52 z-10  sm:-mt-[550px]"
+            className="md:flex-1   md:flex justify-center flex-col  sm:p-16 p-5 h-96 -mr-16 sm:mt-52 z-10 bg-black/50 w-full h-full pb-14  -mt-[655px] sm:-mt-[550px] "
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
@@ -119,8 +123,8 @@ const GetStarted = () => {
 
 
             <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-2 sm:py-5'>{t('webapps')}</h2>
-            <div className="sm:mt-[31px] flex flex-col pr-24  gap-[24px] ">
-              <p className='text-white sm:w-[800px] w-[250] pb-24  '>{t('webappsdesc')}
+            <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
+              <p className='text-white sm:w-[800px] pb-5  '>{t('webappsdesc')}
 
               </p>
             </div>
