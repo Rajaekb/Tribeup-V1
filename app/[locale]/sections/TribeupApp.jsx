@@ -43,7 +43,7 @@ function TribeupApp() {
             <TypingText title={t('ourproduct')} />
           </motion.h1>
         </div>
-        <div className='flex items-center lg:flex-row flex-col min-h-[100vh] space-y-10 sm:space-y-0  bg-stone-900  text-white sm:h-auto  py-40  '>
+        <div className='flex items-center lg:flex-row flex-col min-h-[100vh] space-y-10 sm:space-y-0  bg-stone-900  text-white sm:h-auto  sm:py-40  '>
           <motion.div variants={fadeIn('up', 'tween', 0.2, 1)}>
             <div className='sm:flex-1'>
               <Image
