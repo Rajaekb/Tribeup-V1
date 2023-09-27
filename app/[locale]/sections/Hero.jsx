@@ -68,8 +68,8 @@ const Hero = () => {
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className=' flex-1 duration-300 ease-in-out transition'>
-            <div className='   items-center  rounded-lg   w-full h-full absolute  -ml-96 -mt-[200px] -z-10 duration-300 ease-in-out transition'>
-              <Image src={univer} className='object-contain h-[950px] absolute duration-300 ease-in-out transition' />
+            <div className=' -z-10 duration-300 ease-in-out transition'>
+              <Image src={univer} className='object-contain absolute -top-36 -right-[250px] -z-50  duration-300 ease-in-out transition' />
             </div>
 
 
