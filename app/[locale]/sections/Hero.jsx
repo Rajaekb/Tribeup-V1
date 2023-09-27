@@ -65,8 +65,7 @@ const Hero = () => {
               </Link>
             </motion.div>
           </div>
-          <motion.div
-            variants={fadeIn('up', 'tween', 0.2, 1)}
+          <div
             className=' flex-1 duration-300 ease-in-out transition'>
             <div className=' -z-10 duration-300 ease-in-out transition'>
               <Image src={univer} className='object-contain absolute -top-36 -right-[250px] -z-50  duration-300 ease-in-out transition' />
@@ -74,7 +73,7 @@ const Hero = () => {
 
 
 
-          </motion.div>
+          </div>
 
 
         </div>
