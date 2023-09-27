@@ -132,9 +132,13 @@ aside {
   -webkit-text-stroke: 2px gray;
   color: transparent;
 }
+.text-strock-whitelight {
+  -webkit-text-stroke: 2px whitesmoke;
+  color: transparent;
+}
 .text-strock-white {
   -webkit-text-stroke: 2px white;
-  color: transparent;
+  color: #912cc9;
 }
 .anim-box {
   position: relative;

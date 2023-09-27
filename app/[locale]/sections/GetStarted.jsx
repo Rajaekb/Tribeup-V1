@@ -58,7 +58,7 @@ const GetStarted = () => {
           >
 
 
-            <h2 className='text-strock-white text-4xl md:text-7xl uppercase  sm:py-5'>{t('games')}</h2>
+            <h2 className='text-strock-white text-4xl md:text-6xl pur uppercase  sm:py-5'>{t('games')}</h2>
             <div className="sm:mt-[31px] flex flex-col sm:pr-24">
               <p className='text-white sm:pb-24 w-full '>{t('gamesdesc')}
 
@@ -91,7 +91,7 @@ const GetStarted = () => {
           >
 
 
-            <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-5'>{t('mobileapps')}</h2>
+            <h2 className='text-strock-white text-3xl md:text-6xl uppercase py-5'>{t('mobileapps')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
               <p className='text-white sm:w-[800px] pb-5'>{t('mobileappsdesc')}
 
@@ -115,14 +115,14 @@ const GetStarted = () => {
           </motion.div>
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
-            className="md:flex-1   md:flex justify-center flex-col  sm:p-16 p-5 h-96 -mr-16 sm:mt-52 z-10 bg-black/50 w-full h-full pb-14  -mt-[655px] sm:-mt-[550px] "
+            className="md:flex-1 md:flex justify-center flex-col  sm:p-16 p-5 h-96 -mr-16 sm:mt-52 z-10 bg-black/50 w-full h-full pb-14  -mt-[655px] sm:-mt-[550px] "
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
           >
 
 
-            <h2 className='text-strock-white text-3xl md:text-7xl uppercase py-2 sm:py-5'>{t('webapps')}</h2>
+            <h2 className='text-strock-white text-3xl md:text-6xl uppercase py-2 sm:py-5'>{t('webapps')}</h2>
             <div className="sm:mt-[31px] flex flex-col  gap-[24px] ">
               <p className='text-white sm:w-[800px] pb-5  '>{t('webappsdesc')}
 

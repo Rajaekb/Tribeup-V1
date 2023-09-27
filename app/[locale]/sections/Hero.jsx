@@ -32,7 +32,7 @@ const Hero = () => {
                   <div className='border border-[#d0ff05] m-1 rounded-lg' />
                 </div>
               </motion.div>
-              <motion.h1 className="-ml-8" variants={slideIn('left', 'tween', 0.2, 1)} >
+              <motion.h1 className="-ml-8 z-10" variants={slideIn('left', 'tween', 0.2, 1)} >
                 <TypingText title={t('n1athlete')} />
               </motion.h1>
             </div>
@@ -40,7 +40,7 @@ const Hero = () => {
             <br />
             <motion.h2
               variants={textVariant(0.5)}
-              className=' text-4xl sm:text-5xl  text-strock-white tracking-[.10em] font-extrabold uppercase sm:leading-normal leading-relaxed'>
+              className=' text-4xl sm:text-5xl  text-strock-whitelight tracking-[.10em] font-extrabold uppercase sm:leading-normal leading-relaxed'>
 
 
               {t('turnidea')}</motion.h2>
@@ -66,6 +66,7 @@ const Hero = () => {
             </motion.div>
           </div>
           <div
+
             className=' flex-1 duration-300 ease-in-out transition'>
             <div className=' -z-10 duration-300 ease-in-out transition'>
               <Image src={univer} className='object-contain absolute -top-36 -right-[250px] -z-50  duration-300 ease-in-out transition' />
