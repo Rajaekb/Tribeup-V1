@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { useTranslations } from 'next-intl';
-import galaxy from "../../public/galaxy.jpg"
+import galaxy from "../../public/galaxy.webp"
 import Image from 'next/image';
 
 
