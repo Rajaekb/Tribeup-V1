@@ -17,7 +17,7 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
-    <nav className="h-24 py-12 flex items-center pt-10 bg-transparent ">
+    <nav className="h-24 py-12 flex items-center pt-10 ">
       <div className="absolute sm:w-[95%] w-[85%] inset-0">
         <div className="flex justify-between mx-8 ">
           <Link href="/">
@@ -36,8 +36,8 @@ const Navbar = () => {
 
           </Link>
 
-          <div className="text-white py-12 cursor-pointer flex justify-between gap-5 md:gap-8 text-[#d0ff05] tracking-[.10em] right-0 tracking-[.25em]">
-            <Link href="/about" className=" hover:border-b-[#d0ff05] hidden sm:block" duration={500}>
+          <div className="text-white py-12 cursor-pointer flex justify-between gap-5 text-[#d0ff05] tracking-[.10em] -mr-9 ">
+            <Link href="/about" className="  hidden sm:block" duration={500}>
               <h2>{t('aboutus')}</h2>
             </Link>
             <Link href="/blog" locale={locale}>
