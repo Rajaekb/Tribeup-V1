@@ -28,7 +28,8 @@ const Atappilab = () => {
           <Image
             src={galaxy}
             alt="Mountains with snow"
-
+            width={1500}
+            height={700}
             objectFit='cover'
           />
         </div>
