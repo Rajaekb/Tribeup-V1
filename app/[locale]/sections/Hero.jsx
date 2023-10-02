@@ -56,14 +56,14 @@ const Hero = () => {
               <Link to="Brand" smooth={true} offset={-100} duration={500}>
                 <div className='border-[3px] border-[#912CC9]  opacity-75 hover:opacity-100'>
                   <div className='border border-[#912CC9] m-1 '>
-                    <button className=" bg-[#912CC9] sm:p-4 p-2 font-bold tracking-[.10em] sm:tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
+                    <button className=" bg-[#912CC9] sm:p-4 p-2 font-bold tracking-[.10em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
                   </div>
                 </div>
               </Link>
               <Link to="Athlete" smooth={true} offset={-100} duration={500}>
                 <div className='border-[3px] border-[#912CC9]  opacity-75 hover:opacity-100'>
                   <div className='border border-[#912CC9]  m-1'>
-                    <button className=" sm:p-4 p-2 font-bold  tracking-[.10em] sm:tracking-[.25em] hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer bg-black/50" type="submit">{t('imafounder')}</button>
+                    <button className=" sm:p-4 p-2 font-bold  tracking-[.10em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer bg-black/50" type="submit">{t('imafounder')}</button>
                   </div>
                 </div>
               </Link>

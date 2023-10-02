@@ -94,7 +94,7 @@ function TribeupApp() {
             <motion.a variants={textVariant(1.1)} href="https://www.web.appistadium.com/" target="_blank">
               <div className=' my-5  w-full sm:w-[50%] border-[3px] border-[#912CC9] opacity-75 hover:opacity-100'>
                 <div className=' border border-[#912CC9] m-1'>
-                  <button className="  w-full bg-[#912CC9] sm:p-4 p-2 font-bold sm:tracking-[.25em] tracking-[.10em] hover:opacity-100 ease-in-out duration-300 text-white cursor-pointer" type="submit">  {t('website')}</button>
+                  <button className="  w-full bg-[#912CC9] sm:p-4 p-2 font-bold  tracking-[.10em] hover:opacity-100 ease-in-out duration-300 text-white cursor-pointer" type="submit">  {t('website')}</button>
                 </div>
               </div>
             </motion.a>
