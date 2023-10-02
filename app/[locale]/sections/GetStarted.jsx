@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import sp2 from "../../public/mobile/m7.jpg"
 import sp3 from "../../public/mobile/m4.jpg"
+import { CldVideoPlayer } from 'next-cloudinary';
 
 const GetStarted = () => {
 
@@ -20,10 +21,10 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className='flex flex-col sm:block space-y-24'
+        className='flex flex-col mt-[450px] sm:block space-y-24'
 
       >
-        <div className='flex  mx-8 my-24  items-center'>
+        <div className='flex   my-24  items-center'>
           <motion.div
             variants={slideIn('left', 'tween', 0.8, 1)}
             className="flex">
@@ -35,20 +36,17 @@ const GetStarted = () => {
           <TypingText title={t('ourservices')} textStyles="text-center" />
         </div>
         <div className="flex lg:flex-row flex-col justify-between " id="web">
-          <motion.div
-            variants={fadeIn('up', 'tween', 0.2, 1)}
-            className=" flex justify-center "
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.25 }}
+          <div className='w-[50%] rounded-lg'
           >
-            <video className=' sm:w-[800px] sm:h-[800px] w-[50%] rounded-lg ' muted autoPlay loop>
-              <source
-                src="https://appilab.vercel.app/video/Foot_Runner_Record.mp4" type="video/mp4" />
 
-            </video>
+            <CldVideoPlayer
+              src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1696241170/Foot_Runner_Record_qprja7.webm'
+              muted autoPlay="on-scroll" loop controls="0"
 
-          </motion.div>
+            />
+          </div>
+
+
           <motion.div
             variants={fadeIn('up', 'tween', 0.8, 1)}
             className="  sm:flex-[80%] md:flex flex-grow justify-center flex-col bg-black bg-opacity-50 p-5 sm:mt-52 z-10  sm:-mt-[550px]"

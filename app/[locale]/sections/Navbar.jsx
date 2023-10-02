@@ -17,7 +17,7 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
-    <nav className="h-24 py-12 flex items-center pt-10 ">
+    <nav className="h-24 py-12 flex items-center pt-10 bg-transparent ">
       <div className="absolute sm:w-[95%] w-[85%] inset-0">
         <div className="flex justify-between mx-8 ">
           <Link href="/">

@@ -14,13 +14,14 @@ const About = () => {
   const t = useTranslations('Index');
 
   return (
-    <section id="About" className="h-screen">
+    <section id="About" className="h-screen mt-56 py-24">
       <motion.div
         className=" flex items-center mx-8"
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
+
       >
         <motion.div
           variants={textVariant(0.3)}

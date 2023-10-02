@@ -7,12 +7,16 @@ import { Link } from 'react-scroll';
 import Image from 'next/image';
 import univer from '../../public/univer1.jpg'
 import { useTranslations } from 'next-intl';
+import 'next-cloudinary/dist/cld-video-player.css';
+
+import { CldVideoPlayer } from 'next-cloudinary';
 
 
 const Hero = () => {
 
-  const t = useTranslations('Index');
 
+
+  const t = useTranslations('Index');
 
   return (
 
@@ -23,7 +27,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
       >
         <div className='h-screen flex sm:flex-row flex-col justify-between gap-10 overflow-hidden  mx-10 ' id="home">
-          <div className='flex-1 pt-44 '>
+          <div className='flex-1 pt-32 '>
             <div className='flex items-center'>
               <motion.div
                 variants={slideIn('left', 'tween', 0.2, 1)}
@@ -40,7 +44,7 @@ const Hero = () => {
             <br />
             <motion.h2
               variants={textVariant(0.5)}
-              className=' text-4xl sm:text-5xl  text-strock-whitelight tracking-[.10em] font-extrabold uppercase sm:leading-normal leading-relaxed'>
+              className=' text-4xl sm:text-5xl text-strock-whitelight tracking-[.10em] font-extrabold uppercase sm:leading-normal leading-relaxed'>
 
 
               {t('turnidea')}</motion.h2>
@@ -52,7 +56,7 @@ const Hero = () => {
               <Link to="Brand" smooth={true} offset={-100} duration={500}>
                 <div className='border-[3px] border-[#912CC9]  opacity-75 hover:opacity-100'>
                   <div className='border border-[#912CC9] m-1 '>
-                    <button className=" bg-[#912CC9]   sm:p-4 p-2 font-bold tracking-[.10em] sm:tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
+                    <button className=" bg-[#912CC9] sm:p-4 p-2 font-bold tracking-[.10em] sm:tracking-[.25em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
                   </div>
                 </div>
               </Link>
@@ -65,22 +69,30 @@ const Hero = () => {
               </Link>
             </motion.div>
           </div>
-          <div
 
-            className=' flex-1 duration-300 ease-in-out transition'>
-            <div className=' -z-10 duration-300 ease-in-out transition'>
-              <Image src={univer} className='object-contain absolute -top-36 -right-[250px] -z-50  duration-300 ease-in-out transition' />
-            </div>
+          <div className=' flex justify-center relative  w-full h-[1080px] '>
+            <CldVideoPlayer
+              height="1080"
+              className='rounded-lg rotated-6 absolute -mt-[255px] w-full md:h-[1080px]  object-contain'
+              src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1695979664/production_id_4359111_1080p_1_hayuqt.mp4'
+              muted autoPlay="on-scroll" loop controls="0"
 
+            />
 
 
           </div>
+
+
+
 
 
         </div>
 
 
       </motion.div>
+
+
+
     </section>
   )
 };

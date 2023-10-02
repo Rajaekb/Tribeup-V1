@@ -5,6 +5,7 @@ const nextConfig = {
       "images.pexels.com",
       "media.graphassets.com",
       "appilab.vercel.app",
+      "res.cloudinary.com",
     ],
   },
 

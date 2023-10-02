@@ -7,6 +7,10 @@ import { Link } from 'react-scroll';
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { useTranslations } from 'next-intl';
+import galaxy from "../../public/galaxy.jpg"
+import Image from 'next/image';
+
+
 
 const Atappilab = () => {
 
@@ -14,24 +18,32 @@ const Atappilab = () => {
 
   return (
 
-    <section className="sm:h-auto bg-stone-900 mt-40 ">
+    <section className="sm:h-auto " >
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
+        <div className='w-[100vw] h-[100vh]'>
+          <Image
+            src={galaxy}
+            alt="Mountains with snow"
 
-        <div className='mx-auto flex flex-col justify-center items-center sm:px-24 px-8 pt-[8%] pb-[8%] space-y-[8%] sm:space-y-[60px] '>
-          <motion.p
-            variants={textVariant(0.5)}
-            className="text-gray-300 md:text-6xl sm:text-3xl text-2xl md:leading-[80px] sm:leading-normal leading-[40px] text-center	font-bold ">
+            objectFit='cover'
+          />
+        </div>
+
+        <div className=" -mt-[350px] mx-auto flex flex-col justify-center items-center  sm:px-24 px-8  pb-[8%] space-y-[8%] sm:space-y-[60px] ">
+          <motion.p variants={textVariant(0.5)}
+            className="text-gray-300 sm:text-3xl text-xl tracking-[.10em] sm:leading-normal leading-relaxed text-center	font-bold">
 
             {t('attribeup')}</motion.p>
 
 
+
           <motion.div
             variants={textVariant(0.2)}
-            className='flex  gap-5'>
+            className='flex  gap-5 '>
             <Link to="Brand" smooth={true} offset={-100} duration={500}>
               <div className='border-[3px] border-[#912CC9]   opacity-75 hover:opacity-100'>
                 <div className='border border-[#912CC9] m-1 '>
@@ -49,9 +61,9 @@ const Atappilab = () => {
           </motion.div>
         </div>
 
-
       </motion.div>
-    </section>
+
+    </section >
   )
 
 };
