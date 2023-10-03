@@ -68,11 +68,17 @@ const Hero = () => {
             </motion.div>
           </div>
 
-          <div className=' flex justify-center sm:relative  w-full h-[1080px] '>
+          <div className=' flex justify-center sm:relative  w-full sm:h-[1080px] '>
             <CldVideoPlayer
               height="1080"
               className='rounded-lg  sm:absolute  w-full md:h-[1080px]  object-contain'
-              src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1696333857/production_id_4359111_1080p_dranxd.webm'
+              src='videowomen'
+              transformation={{
+                crop: "fill",
+                gravity: "center",
+                witdh: 850,
+                height: 570
+              }}
               muted autoPlay="on-scroll" loop controls="0"
 
             />
