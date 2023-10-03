@@ -72,7 +72,7 @@ const Hero = () => {
             <CldVideoPlayer
               height="1080"
               className='rounded-lg  sm:absolute  w-full md:h-[1080px]  object-contain'
-              src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1695979664/production_id_4359111_1080p_1_hayuqt.mp4'
+              src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1696333857/production_id_4359111_1080p_dranxd.webm'
               muted autoPlay="on-scroll" loop controls="0"
 
             />
