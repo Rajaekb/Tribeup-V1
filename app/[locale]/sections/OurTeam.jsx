@@ -42,7 +42,7 @@ function OurTeam() {
           <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24  '>
 
 
-            <div className='flex  space-y-2'>
+            <div className='flex flex-col sm:flex-row space-y-2'>
 
               <motion.div variants={textVariant(0.8)} className='flex-1 flex justify-center ' >
                 <Image width={500} height={500} className='w-[60%] h-[80%] object-cover rounded-3xl' src={Etienne} /></motion.div>
@@ -59,7 +59,7 @@ function OurTeam() {
 
             </div>
 
-            <div className='flex  space-y-2'>
+            <div className='flex  flex-col sm:flex-row space-y-2'>
 
               <motion.div variants={textVariant(0.8)} className='flex-1 flex justify-center ' >
                 <Image width={500} height={500} className='w-[60%] h-[80%] object-cover object-top rounded-3xl' src={Sebastien} /></motion.div>
