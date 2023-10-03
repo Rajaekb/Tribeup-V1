@@ -40,8 +40,14 @@ const GetStarted = () => {
           >
 
             <CldVideoPlayer
-              src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1696241170/Foot_Runner_Record_qprja7.webm'
+              src='Foot_Runner_Record_qprja7'
               muted autoPlay="on-scroll" loop controls="0"
+              transformation={{
+                crop: "fill",
+                gravity: "center",
+                witdh: 770,
+                height: 1050
+              }}
 
             />
           </div>

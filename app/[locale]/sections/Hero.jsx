@@ -76,8 +76,8 @@ const Hero = () => {
               transformation={{
                 crop: "fill",
                 gravity: "center",
-                witdh: 850,
-                height: 570
+                witdh: 1080,
+                height: 770
               }}
               muted autoPlay="on-scroll" loop controls="0"
 
