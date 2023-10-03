@@ -28,7 +28,7 @@ const Navbar = () => {
                 width={60}
                 height={50}
                 className=" object-contain" />
-              <h1 className="text-gray-400 font-bold text-5xl uppercase text-strock-gray p-2">
+              <h1 className="text-gray-400 font-bold text-3xl sm:text-5xl uppercase text-strock-gray p-2">
                 Appilab
               </h1>
 

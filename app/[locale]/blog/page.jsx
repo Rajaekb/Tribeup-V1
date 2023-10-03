@@ -65,11 +65,14 @@ export default async function Page() {
                     variants={slideIn('left', 'tween', 0.8, 1)}
                     className="flex mt-10 justify-center">
                     <div className='sm:mt-5 sm:w-60 w-20 '>
-                        <div className='border border-[#d0ff05] m-1 rounded-lg' />
+                        <div className='border border-[#d0ff05]  rounded-lg' />
                     </div>
-                    <TypingText title="Blog" />
+                    <div className='mr-7'>
+
+                        <TypingText title="Blog" />
+                    </div>
                     <div className='sm:mt-5 sm:w-60 w-20 '>
-                        <div className='border border-[#d0ff05] m-1 rounded-lg' />
+                        <div className='border border-[#d0ff05] rounded-lg' />
                     </div>
 
                 </motion.div>
