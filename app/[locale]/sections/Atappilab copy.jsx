@@ -5,7 +5,7 @@ import React from 'react'
 import { Link } from 'react-scroll';
 
 import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { staggerContainer, textVariant } from '../utils/motion';
 import { useTranslations } from 'next-intl';
 
 const Atappilab = () => {

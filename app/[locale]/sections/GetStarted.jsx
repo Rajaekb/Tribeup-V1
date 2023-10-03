@@ -1,9 +1,9 @@
 'use client';
 import { motion } from 'framer-motion';
 
-import { startingFeatures } from '../constants';
-import { StartSteps, TitleText, TypingText } from '../components';
-import { staggerContainer, slideIn, fadeIn, planetVariants } from '../utils/motion';
+
+import { TypingText } from '../components';
+import { staggerContainer, slideIn, fadeIn } from '../utils/motion';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import sp2 from "../../public/mobile/m7.jpg"

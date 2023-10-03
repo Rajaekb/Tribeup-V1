@@ -5,8 +5,8 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from "../components";
 import { useTranslations } from 'next-intl';
 
-import Etienne from '../../public/team/EtienneLambot.jpeg';
-import Sebastien from '../../public/team/SebastienBellin1.png';
+import Etienne from '../../public/EtienneLambot.webp';
+import Sebastien from '../../public/SebastienBellin1.webp';
 
 function OurTeam() {
   const t = useTranslations('Index');
@@ -39,25 +39,44 @@ function OurTeam() {
 
             {t('ourteamdesc')}
           </motion.p>
-          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24  '>
+          <div className=' tracking-[.10em]  sm:leading-normal leading-relaxed gap-8 min-h-[70vh] space-y-10 sm:space-y-0  justify-between text-white p-10 sm:p-32 md:p-24  '>
 
 
-            <div className=' space-y-2'>
-              <motion.div variants={textVariant(0.8)} >
-                <Image width={300} height={500} src={Etienne} /></motion.div>
-              <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Etienne Lambot</motion.h2>
-              <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>CEO / Co-Founder</motion.h3>
-              <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
-                {t('etiennedesc')}              </motion.p>
+            <div className='flex  space-y-2'>
+
+              <motion.div variants={textVariant(0.8)} className='flex-1 flex justify-center ' >
+                <Image width={500} height={500} className='w-[60%] h-[80%] object-cover rounded-3xl' src={Etienne} /></motion.div>
+
+              <div className='flex-1 flex items-center '>
+                <div>
+                  <motion.h2 variants={textVariant(0.2)} className='text-2xl text-[#912CC9]'>Etienne Lambot</motion.h2>
+                  <motion.h3 variants={textVariant(0.5)} className=' text-[#d0ff05]'>CEO / Co-Founder</motion.h3>
+                  <motion.p variants={textVariant(0.8)} className=' text-gray-300'>
+                    {t('etiennedesc')}              </motion.p>
+                </div>
+
+              </div>
+
             </div>
-            <div className='  space-y-2'>
-              <motion.div variants={textVariant(0.8)} >
-                <Image src={Sebastien} width={300} /></motion.div>
-              <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Sebastien Bellin</motion.h2>
-              <motion.h3 variants={textVariant(1)} className=' text-[#d0ff05]'>Co-Founder</motion.h3>
-              <motion.p variants={textVariant(1.2)} className=' text-gray-300'>
-                {t('sebastiendesc')}              </motion.p>
+
+            <div className='flex  space-y-2'>
+
+              <motion.div variants={textVariant(0.8)} className='flex-1 flex justify-center ' >
+                <Image width={500} height={500} className='w-[60%] h-[80%] object-cover object-top rounded-3xl' src={Sebastien} /></motion.div>
+
+              <div className='flex-1 flex items-center '>
+                <div>
+                  <motion.h2 variants={textVariant(0.9)} className='text-2xl text-[#912CC9]'>Sebastien Bellin</motion.h2>
+                  <motion.h3 variants={textVariant(1.2)} className=' text-[#d0ff05]'> Co-Founder</motion.h3>
+                  <motion.p variants={textVariant(1.5)} className=' text-gray-300'>
+                    {t('sebastiendesc')}              </motion.p>
+                </div>
+
+              </div>
+
             </div>
+
+
 
 
 

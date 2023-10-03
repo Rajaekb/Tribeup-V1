@@ -3,11 +3,6 @@
 import React from 'react'
 
 
-
-import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
-import { Post } from '../components';
-
 const LatestPosts = () => {
   return (
     <div className="h-screen" id="Blog">

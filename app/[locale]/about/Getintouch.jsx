@@ -1,7 +1,7 @@
 
 'use client';
 import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { fadeIn, staggerContainer } from '../utils/motion';
 import { useTranslations } from "next-intl";
 
 const Getintouch = () => {

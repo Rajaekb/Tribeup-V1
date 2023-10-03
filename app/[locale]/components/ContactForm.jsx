@@ -1,7 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
-import { fadeIn, slideIn, staggerContainer, textVariant } from '../utils/motion';
-import { TypingText } from ".";
+
 import { useState } from "react";
 
 

@@ -51,7 +51,7 @@ const Navbar = () => {
               En
             </a>
             <a type="button" className='hidden sm:block' onClick={() => router.push(`/fr/${pathname}`)}>
-              FR
+              Fr
             </a>
 
             {pathname === '/' ? <BurgerMenu className="absolute py-12" /> : null}

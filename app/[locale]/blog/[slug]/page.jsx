@@ -3,11 +3,11 @@
 import React from 'react';
 import { GraphQLClient } from 'graphql-request';
 import { motion } from "framer-motion";
-import { slideIn, slideUp, staggerContainer, textVariant } from '../../utils/motion';
-import { TypingText } from '../../components';
+import { staggerContainer, textVariant } from '../../utils/motion';
+
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+;
 
 const getPost = async (params, locale) => {
 

@@ -4,8 +4,7 @@
 import axios from 'axios';
 
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion';
-import { TypingText } from '../components';
+import { staggerContainer, fadeIn } from '../utils/motion';
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 

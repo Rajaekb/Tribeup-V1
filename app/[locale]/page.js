@@ -1,17 +1,12 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import Link from "next-intl/link";
-import AlertMessage from "./AlertMessage";
 import {
   About,
   Atappilab,
   Contact,
   GetStarted,
   Hero,
-  Insights,
   NewsLetter,
-  Portfolio,
   TribeupApp,
 } from "./sections";
 import OurTeam from "./sections/OurTeam";

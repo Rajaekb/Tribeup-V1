@@ -3,11 +3,10 @@ import Image from 'next/image'
 import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant, fadeIn } from '../../utils/motion';
 import { TypingText } from "../../components";
-import phone from "./../../public/phone.png"
-import phone2 from "./../../public/phone2.png"
-import phone3 from "./../../public/phone3.png"
+import phone from "../../../public/phone.png"
+import phone2 from "../../../public/phone2.png"
+import phone3 from "../../../public/phone3.png"
 import { useTranslations } from 'next-intl';
-import { Link } from 'react-scroll';
 import Getintouch from '../Getintouch';
 
 const page = () => {

@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion';
 import { TypingText } from '../components';
 import { Link } from 'react-scroll';
-import Image from 'next/image';
-import univer from '../../public/univer1.jpg'
 import { useTranslations } from 'next-intl';
 import 'next-cloudinary/dist/cld-video-player.css';
 

@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion';
 import { TypingText } from '../components';
 import { Link } from 'react-scroll';
-import Image from 'next/image';
-import rugbyImg from '../../public/rugby.png'
-import arrowYellow from '../../public/arrowyellow.png'
+
 import { useTranslations } from 'next-intl';
 
 
