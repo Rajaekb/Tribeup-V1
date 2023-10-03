@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant, fadeIn } from '../utils/motion';
+import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { TypingText } from '../components';
 import { Link } from 'react-scroll';
 import { useTranslations } from 'next-intl';
@@ -24,17 +24,17 @@ const Hero = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className='h-screen flex sm:flex-row flex-col justify-between gap-10 overflow-hidden  mx-10 ' id="home">
-          <div className='flex-1 pt-32 '>
+        <div className='sm:h-screen flex sm:flex-row flex-col justify-between gap-10 overflow-hidden  mx-10 ' id="home">
+          <div className='flex-1 pt-8 sm:pt-32 '>
             <div className='flex items-center'>
               <motion.div
                 variants={slideIn('left', 'tween', 0.2, 1)}
               >
-                <div className='sm:mt-5 sm:w-20 w-20 '>
+                <div className='sm:mt-5 sm:w-20 w-10 '>
                   <div className='border border-[#d0ff05] m-1 rounded-lg' />
                 </div>
               </motion.div>
-              <motion.h1 className="-ml-8 z-10" variants={slideIn('left', 'tween', 0.2, 1)} >
+              <motion.h1 className="sm:-ml-8 z-10" variants={slideIn('left', 'tween', 0.2, 1)} >
                 <TypingText title={t('n1athlete')} />
               </motion.h1>
             </div>
