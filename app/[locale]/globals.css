@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
 }
 body {
@@ -14,107 +14,11 @@ body {
   color: white;
 }
 
-.gradient-01 {
-  background-image: linear-gradient(
-    270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
-  );
-  filter: blur(125px);
-}
-
-.hero-gradient {
-  background: linear-gradient(
-    97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
-  );
-}
-
-.gradient-02 {
-  position: absolute;
-  width: 200px;
-  height: 438px;
-  top: 0px;
-  right: 0px;
-  background: #c2b55e;
-  filter: blur(190px);
-}
-
-.glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
 .glassmorphism2 {
   color: rgba(255, 255, 255, 0.1);
   font-size: 200px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-}
-.gradient-03 {
-  position: absolute;
-  width: 404px;
-  height: 800px;
-  left: 20%;
-  top: 5%;
-
-  background: rgba(149, 66, 232, 0.35);
-  filter: blur(175px);
-  transform: rotate(-114.2deg);
-}
-
-.gradient-04 {
-  position: absolute;
-  width: 304px;
-  height: 100vh;
-  left: 30%;
-  top: 10%;
-
-  background: rgba(45, 72, 152, 0.75);
-  filter: blur(200px);
-  transform: rotate(-53.13deg);
-}
-.content {
-  height: 100vh;
-}
-
-.text-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 5px 15px;
-  transform: translate(-50%, -50%);
-  background: gray;
-  color: white;
-  border-radius: 20px;
-  font-size: 50px;
-}
-.gradient-05 {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-.feedback-gradient {
-  position: absolute;
-  width: 200px;
-  height: 316px;
-  left: 0px;
-  top: 0px;
-
-  background: #8d39a3;
-  filter: blur(175px);
 }
 
 .footer-gradient {
@@ -154,35 +58,8 @@ aside {
   -webkit-text-stroke: 2px white;
   color: #912cc9;
 }
-.anim-box {
-  position: relative;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 20px;
-}
-.anim-box::before {
-  content: "";
-  position: absolute;
-  background-image: conic-gradient(#8c4dc4 20deg, transparent 120deg);
-  width: 120%;
-  height: 120%;
-  animation: rotate 4s linear infinite;
-}
-.anim-box::after {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #0e1538;
-  border-radius: 16px;
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
+
+.bg-galaxy {
+  background-image: url("../public/galax.webp");
+  background-attachment: fixed;
 }

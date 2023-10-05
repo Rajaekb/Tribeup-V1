@@ -31,8 +31,10 @@ const page = () => {
                             <div className='sm:mt-5  sm:w-60 w-20 '>
                                 <div className='border border-[#d0ff05] m-1 rounded-lg' />
                             </div>
+                            <div className='mr-7'>
 
-                            <TypingText title={t('games')} />
+                                <TypingText title={t('games')} />
+                            </div>
                             <div className='sm:mt-5  sm:w-60 w-20 '>
                                 <div className='border border-[#d0ff05] m-1 rounded-lg' />
                             </div>
@@ -54,6 +56,13 @@ const page = () => {
 
 
                                     {t('gamedesc1')}
+                                </motion.p>
+                                <motion.p
+                                    variants={textVariant(1.2)}
+                                    className=' text-gray-300 sm:text-2xl tracking-[.10em] sm:leading-normal leading-relaxed '>
+
+
+                                    {t('gamedesc2')}
                                 </motion.p>
 
 
