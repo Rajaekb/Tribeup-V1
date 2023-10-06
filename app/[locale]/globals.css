@@ -17,8 +17,6 @@ body {
 .glassmorphism2 {
   color: rgba(255, 255, 255, 0.1);
   font-size: 200px;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 }
 
 .footer-gradient {

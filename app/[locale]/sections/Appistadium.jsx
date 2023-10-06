@@ -48,7 +48,7 @@ function Appistadium() {
             <div className='sm:flex-1'>
               <Image
                 src={appimg}
-                alt="tribeup"
+                alt="appistadium"
                 width={800}
 
                 className=" object-contain sm:-mt-20  " />

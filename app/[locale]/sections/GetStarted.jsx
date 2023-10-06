@@ -21,7 +21,7 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className='flex justify-center items-center relative mt-56 px-8'
+        className='flex justify-center items-center relative mt-56 '
 
       >
         <div className='flex flex-col sm:block space-y-56'>
@@ -99,7 +99,7 @@ const GetStarted = () => {
             </div>
 
           </div>
-          <div className=" flex lg:flex-row-reverse flex-col-reverse justify-between " id="mobile">
+          <div className=" bg-stone-900 h-screen flex lg:flex-row-reverse flex-col-reverse justify-between -px-5 " id="mobile">
 
 
             <motion.div
@@ -112,7 +112,7 @@ const GetStarted = () => {
 
 
               <h2 className='  text-strock-white text-4xl ml-16   md:text-6xl uppercase'>{t('mobileapps')}</h2>
-              <div className="sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 ml-12 text-md tracking-[.05em] ">
+              <div className="z-50 sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 ml-12 text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('mobiledescp1')}
@@ -135,10 +135,10 @@ const GetStarted = () => {
 
                 </p>
                 <motion.div
-                  className=" absolute -z-10  "
+                  className=" absolute   "
                   variants={slideIn('right', 'tween', 0.2, 1)}>
 
-                  <h1 className=" hidden sm:block text-8xl mt-24 ml-44 font-bold glassmorphism2 uppercase text-stone-900">
+                  <h1 className=" hidden sm:block text-8xl mt-24 ml-44 font-bold glassmorphism2 uppercase text-stone-900 z-50">
                     Mobile</h1>
                 </motion.div>
               </div>
