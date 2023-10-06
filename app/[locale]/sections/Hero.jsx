@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
 
-    <section id="hero">
+    <section id="hero" className='bg-galaxy'>
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"

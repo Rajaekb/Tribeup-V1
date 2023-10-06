@@ -14,7 +14,7 @@ const About = () => {
   const t = useTranslations('Index');
 
   return (
-    <section id="About" className="sm:h-screen sm:mt-56 py-24">
+    <section id="About" className="sm:h-screen  py-24 sm:py-36">
       <motion.div
         className=" flex items-center mx-8"
         variants={staggerContainer}
