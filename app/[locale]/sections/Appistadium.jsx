@@ -14,7 +14,7 @@ import googleicone from '../../public/googleicone.png'
 
 
 
-function TribeupApp() {
+function Appistadium() {
 
   const t = useTranslations('Index');
 
@@ -111,4 +111,4 @@ function TribeupApp() {
   )
 }
 
-export default TribeupApp
+export default Appistadium

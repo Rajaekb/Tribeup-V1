@@ -7,9 +7,7 @@ import { Link } from 'react-scroll';
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from '../utils/motion';
 import { useTranslations } from 'next-intl';
-import galaxy from "../../public/galax.webp"
 import photo from "../../public/image.webp"
-import gifphot from "../../public/phot.gif"
 import Image from 'next/image';
 
 
@@ -20,7 +18,7 @@ const Atappilab = () => {
 
   return (
 
-    <section className="sm:h-auto bg-galaxy mt-56" >
+    <section className="sm:h-auto bg-galaxy py-10 sm:mt-56 mx-8" >
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"
@@ -28,29 +26,29 @@ const Atappilab = () => {
       >
         <div className=' '>
 
-          <div className="flex items-center  ">
-            <div className='flex-1 '>
+          <div className="flex flex-col sm:flex-row items-center justify-center  ">
+            <div className='flex-1 hidden sm:block '>
               <Image
                 src={photo}
                 alt=""
                 width={1500}
                 height={700}
                 objectFit='contain'
-                className='-ml-24 w-[80%]'
+                className='sm:-ml-24 w-[80%]'
               />
 
             </div>
-            <div className='flex-1'>
+            <div className='flex-1 '>
               <motion.p variants={textVariant(0.5)}
-                className=" -ml-16 text-gray-300  text-xl tracking-[.10em] sm:leading-normal leading-relaxed">
+                className=" sm:-ml-16 text-gray-300  sm:text-2xl text-xl tracking-[.05em] sm:leading-normal leading-relaxed ">
 
-                {t('attribeup')}</motion.p>
+                {t('atappilab')}</motion.p>
 
 
 
               <motion.div
                 variants={textVariant(0.2)}
-                className='flex -ml-16 gap-5 mt-5 '>
+                className='flex sm:-ml-16 gap-5 mt-5 '>
                 <Link to="Brand" smooth={true} offset={-100} duration={500}>
                   <div className='border-[3px] border-[#912CC9]   opacity-75 hover:opacity-100'>
                     <div className='border border-[#912CC9] m-1 '>
