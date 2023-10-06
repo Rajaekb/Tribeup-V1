@@ -21,12 +21,12 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className='flex justify-center items-center   relative mt-56 px-8'
+        className='flex justify-center items-center relative mt-56 px-8'
 
       >
         <div className='flex flex-col sm:block space-y-56'>
 
-          <div className="  flex lg:flex-row flex-col justify-between " id="games">
+          <div className="  flex sm:flex-row flex-col justify-between " id="games">
 
 
             <motion.div
@@ -37,7 +37,7 @@ const GetStarted = () => {
               viewport={{ once: false, amount: 0.25 }}
             >
 
-              <div className='flex items-center -mt-56'>
+              <div className='flex items-center sm:-mt-56 -mt-36'>
                 <motion.div
                   variants={slideIn('left', 'tween', 0.2, 1)}
                 >
@@ -50,8 +50,8 @@ const GetStarted = () => {
                 </motion.h1>
               </div>
 
-              <h2 className=' mt-24 text-strock-white text-4xl ml-16  md:text-6xl uppercase'>{t('games')}</h2>
-              <div className="sm:mt-[31px] flex flex-col sm:pr-16 text-gray-300 ml-12 text-md tracking-[.05em] ">
+              <h2 className=' sm:mt-24 mt-8 text-strock-white text-4xl sm:ml-16 ml-8  md:text-6xl uppercase'>{t('games')}</h2>
+              <div className="sm:mt-[31px] flex flex-col sm:pr-16 text-gray-300 sm:ml-12 ml-8 text-md tracking-[.05em] ">
                 <p className=''>
                   {t('gamesdesc')}
 
@@ -81,13 +81,13 @@ const GetStarted = () => {
                 </motion.div>
               </div>
             </motion.div>
-            <div className='w-[23%] bg-[#d0ff05] h-[500px]  -mt-24 ml-10 '
+            <div className='flex justify-center w-[50%] sm:w-[23%] sm:bg-[#d0ff05] h-[500px] sm:-mt-24 sm:ml-10 '
             >
 
               <CldVideoPlayer
                 src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1696241170/Foot_Runner_Record_qprja7.webm'
                 muted autoPlay="on-scroll" loop controls="0"
-                className='-ml-10 mt-8 '
+                className='sm:-ml-10 sm:mt-8 mt-16 ml-24'
                 transformation={{
                   crop: "fill",
                   gravity: "center",

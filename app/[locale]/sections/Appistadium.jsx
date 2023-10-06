@@ -73,7 +73,7 @@ function Appistadium() {
 
                   <Image
                     src={appleicone}
-                    alt="tribeup"
+                    alt="appleicon"
                     width={200}
                     className=" object-contain" /></button>
 
@@ -83,7 +83,7 @@ function Appistadium() {
                 <button className="  hover:opacity-100 ease-in-out duration-300 cursor-pointer" type="submit">
                   <Image
                     src={googleicone}
-                    alt="tribeup"
+                    alt="appistadium"
                     width={200}
                     className=" object-contain" />
                 </button>
