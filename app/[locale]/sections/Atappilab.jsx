@@ -26,7 +26,7 @@ const Atappilab = () => {
       >
         <div className=' '>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center  ">
+          <div className="flex flex-col sm:flex-row items-center justify-center px-8 py-8 ">
             <div className='flex-1 hidden sm:block '>
               <Image
                 src={photo}

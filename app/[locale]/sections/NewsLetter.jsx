@@ -104,24 +104,24 @@ const NewsLetter = () => {
         viewport={{ once: false, amount: 0.25 }}
         className="   flex justify-center items-center"
       >
-        <motion.div variants={fadeIn('up', 'tween', 0.8, 1)} class=" sm:-mt-[100px] w-[80%] mx-auto h-56 bg-[#d0ff05] flex flex-wrap justify-center items-center ">
+        <motion.div variants={fadeIn('up', 'tween', 0.8, 1)} class=" sm:-mt-[100px] w-[80%] mx-auto py-5 sm:h-56 bg-[#d0ff05] flex flex-wrap justify-center items-center ">
 
           <div class="">
             <div class="grid lg:grid-cols-2 gap-x-6 items-center">
-              <div class="mb-10 lg:mb-0 z-10">
+              <div class="">
 
 
                 <motion.h1 variants={fadeIn('up', 'tween', 0.2, 1)}
 
-                  className=" text-black text-xl  font-bold">
+                  className=" text-black sm:text-xl font-bold">
 
-                  <span className="px-8 mt-7 tracking-[0.10em] "> {t('subscribe')} </span>
+                  <span className="px-8  tracking-[0.10em] "> {t('subscribe')} </span>
                 </motion.h1>
               </div>
 
               <form onSubmit={handleSubmit}>
 
-                <div class="mb-6 md:mb-0">
+                <div class="">
                   <div class="md:flex flex-row">
 
 
@@ -135,7 +135,7 @@ const NewsLetter = () => {
                     />
                     <input
                       type="submit"
-                      class="border  border-black text-black  font-bold sm:px-10 py-5 cursor-pointer hover:scale-110 duration-300 ease-in-out "
+                      class="border  border-black text-black  font-bold px-10 py-5 cursor-pointer hover:scale-110 duration-300 ease-in-out "
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
                     />

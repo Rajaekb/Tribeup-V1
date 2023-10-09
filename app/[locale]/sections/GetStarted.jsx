@@ -114,7 +114,7 @@ const GetStarted = () => {
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className="sm:flex justify-center flex-col sm:pl-10 "
+              className="sm:flex-[80%] sm:flex justify-center flex-col sm:pl-10 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
