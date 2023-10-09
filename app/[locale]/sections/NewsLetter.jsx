@@ -97,14 +97,14 @@ const NewsLetter = () => {
   };
   return (
 
-    <section className=" bg-[#d0ff05] text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
+    <section className=" sm:-mt-[100px] text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className="flex justify-center items-center"
+        className=" w-[80%] mx-auto h-56 bg-[#d0ff05]  flex justify-center items-center"
       >
-        <div class="flex flex-wrap justify-center items-center  h-[250px] w-full">
+        <div class="flex flex-wrap justify-center items-center   w-full">
 
           <div class="">
             <div class="grid lg:grid-cols-2 gap-x-6 items-center">
