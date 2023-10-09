@@ -97,14 +97,14 @@ const NewsLetter = () => {
   };
   return (
 
-    <section className=" sm:-mt-[100px] text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
+    <section className="  text-center lg:text-left h-[250px] bg-cover bg-no-repeat bg-top  bg-fixed  ">
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className=" w-[80%] mx-auto h-56 bg-[#d0ff05]  flex justify-center items-center"
+        className="   flex justify-center items-center"
       >
-        <div class="flex flex-wrap justify-center items-center   w-full">
+        <motion.div variants={fadeIn('up', 'tween', 0.8, 1)} class=" sm:-mt-[100px] w-[80%] mx-auto h-56 bg-[#d0ff05] flex flex-wrap justify-center items-center ">
 
           <div class="">
             <div class="grid lg:grid-cols-2 gap-x-6 items-center">
@@ -113,7 +113,7 @@ const NewsLetter = () => {
 
                 <motion.h1 variants={fadeIn('up', 'tween', 0.2, 1)}
 
-                  className="font-medium text-black text-xl">
+                  className=" text-black text-xl  font-bold">
 
                   <span className="px-8 mt-7 tracking-[0.10em] "> {t('subscribe')} </span>
                 </motion.h1>
@@ -135,7 +135,7 @@ const NewsLetter = () => {
                     />
                     <input
                       type="submit"
-                      class="inline-block px-7 py-3 bg-black text-white  md:tracking-[.25em] font-medium text-sm leading-snug uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      class="border  border-black text-black  font-bold sm:px-10 py-5 cursor-pointer hover:scale-110 duration-300 ease-in-out "
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
                     />
@@ -146,7 +146,7 @@ const NewsLetter = () => {
               </form>
             </div>
           </div>
-        </div>
+        </motion.div>
       </motion.div>
     </section>
 
