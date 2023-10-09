@@ -168,8 +168,8 @@ const GetStarted = () => {
             >
 
 
-              <h2 className='  text-strock-white text-4xl sm:ml-16  md:text-6xl uppercase  '>{t('webapps')}</h2>
-              <div className="mt-[10px] sm:mt-[31px] flex flex-col sm:pr-16 text-gray-300  text-md tracking-[.05em] ">
+              <h2 className='  text-strock-white text-4xl sm:ml-12  md:text-6xl uppercase  '>{t('webapps')}</h2>
+              <div className="mt-[10px] sm:mt-[31px] flex flex-col sm:ml-8 text-gray-300  text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('webappsdescp1')}
@@ -195,8 +195,8 @@ const GetStarted = () => {
                   className=" absolute -z-10  "
                   variants={slideIn('left', 'tween', 0.2, 1)}>
 
-                  <h1 className=" hidden sm:block text-8xl mt-24 ml-44 font-bold glassmorphism2 uppercase text-stone-900">
-                    Web Apps</h1>
+                  <h1 className=" hidden sm:block text-8xl mt-24 ml-24 font-bold glassmorphism2 uppercase text-stone-900">
+                    Web App</h1>
                 </motion.div>
               </div>
             </motion.div>
