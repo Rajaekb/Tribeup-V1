@@ -99,20 +99,30 @@ const GetStarted = () => {
             </div>
 
           </div>
-          <div className=" bg-stone-900 h-screen flex lg:flex-row-reverse flex-col-reverse justify-between -px-5 " id="mobile">
+          <div className=" py-5 bg-stone-900 sm:h-screen flex sm:flex-row flex-col-reverse justify-between gap-5 px-5 " id="mobile">
+            <div className='sm:w-[23%] sm:bg-[#d0ff05] sm:h-[500px]'
+            >
 
+              <Image
+                src={sp3}
+                alt="get-started"
+                className="ml-10 sm:mt-16  object-cover sm:h-[500px] h-[250px] object-contain"
+                height={500}
+
+              />
+            </div>
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className="  sm:flex-[80%] md:flex justify-center flex-col pl-10 "
+              className="sm:flex-[80%] sm:flex justify-center flex-col sm:pl-10 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
             >
 
 
-              <h2 className='  text-strock-white text-4xl ml-16   md:text-6xl uppercase'>{t('mobileapps')}</h2>
-              <div className="z-50 sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 ml-12 text-md tracking-[.05em] ">
+              <h2 className='   text-strock-white text-4xl ml-16   md:text-6xl uppercase'>{t('mobileapps')}</h2>
+              <div className=" sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 ml-12 text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('mobiledescp1')}
@@ -143,33 +153,23 @@ const GetStarted = () => {
                 </motion.div>
               </div>
             </motion.div>
-            <div className='w-[23%] bg-[#d0ff05] h-[500px]'
-            >
 
-              <Image
-                src={sp3}
-                alt="get-started"
-                className="ml-10 mt-16  object-cover h-[500px]"
-                height={500}
-
-              />
-            </div>
 
           </div>
-          <div className="   flex lg:flex-row flex-col justify-between " id="webapps">
+          <div className=" flex lg:flex-row flex-col justify-between " id="webapps">
 
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className=" -mt-16 sm:flex-[80%] md:flex justify-center flex-col "
+              className=" -mt-44 sm:-mt-16 sm:flex-[80%] md:flex sm:justify-center flex-col mx-8 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
             >
 
 
-              <h2 className='  text-strock-white text-4xl ml-16  md:text-6xl uppercase'>{t('webapps')}</h2>
-              <div className="sm:mt-[31px] flex flex-col sm:pr-16 text-gray-300 ml-12 text-md tracking-[.05em] ">
+              <h2 className='  text-strock-white text-4xl sm:ml-16  md:text-6xl uppercase  '>{t('webapps')}</h2>
+              <div className="mt-[10px] sm:mt-[31px] flex flex-col sm:pr-16 text-gray-300  text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('webappsdescp1')}
@@ -200,12 +200,12 @@ const GetStarted = () => {
                 </motion.div>
               </div>
             </motion.div>
-            <div className='w-[23%] bg-[#d0ff05] h-[500px]  -mt-24 ml-10 '
+            <div className='sm:w-[23%] sm:bg-[#d0ff05] sm:h-[500px]  sm:-mt-24 sm:ml-10 flex justify-center '
             >
               <Image
                 src={sp2}
                 alt="get-started"
-                className="-ml-10 mt-8  object-cover h-[500px] "
+                className="sm:-ml-10 mt-8  object-cover sm:h-[500px] h-[250px] object-contain"
                 height={500}
 
 

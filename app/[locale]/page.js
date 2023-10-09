@@ -21,8 +21,8 @@ export default function Home() {
       <Atappilab />
       <GetStarted />
 
-      <NewsLetter />
       <Appistadium />
+      <NewsLetter />
       <OurTeam />
       <div className=" -mt-24 ">
         <Getintouch />

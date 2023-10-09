@@ -40,7 +40,7 @@ const Atappilab = () => {
             </div>
             <div className='flex-1 '>
               <motion.p variants={textVariant(0.5)}
-                className=" sm:-ml-16 text-gray-300  sm:text-2xl text-xl tracking-[.05em] sm:leading-normal leading-relaxed ">
+                className=" sm:-ml-16 text-gray-300  sm:text-2xl text-xl tracking-[.05em] ">
 
                 {t('atappilab')}</motion.p>
 
@@ -50,15 +50,15 @@ const Atappilab = () => {
                 variants={textVariant(0.2)}
                 className='flex sm:-ml-16 gap-5 mt-5 '>
                 <Link to="Brand" smooth={true} offset={-100} duration={500}>
-                  <div className='border-[3px] border-[#912CC9]   opacity-75 hover:opacity-100'>
-                    <div className='border border-[#912CC9] m-1 '>
-                      <button className=" bg-[#912CC9]   sm:p-4 p-2 font-bold tracking-[.10em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
+                  <div className='border-[3px] border-[#d0ff05]   opacity-75 hover:opacity-100'>
+                    <div className='border border-[#d0ff05] m-1 '>
+                      <button className="   sm:p-4 p-2 font-bold tracking-[.10em]  hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imabrand')}</button>
                     </div>
                   </div>
                 </Link>
                 <Link to="Athlete" smooth={true} offset={-100} duration={500}>
-                  <div className='border-[3px] border-[#912CC9]  opacity-75 hover:opacity-100'>
-                    <div className='border border-[#912CC9]  m-1'>
+                  <div className='border-[3px] border-[#d0ff05]  opacity-75 hover:opacity-100'>
+                    <div className='border border-[#d0ff05]  m-1'>
                       <button className=" sm:p-4 p-2 font-bold  tracking-[.10em] hover:opacity-100 ease-in-out duration-300 hover:scale-110 text-white cursor-pointer" type="submit">{t('imafounder')}</button>
                     </div>
                   </div>
