@@ -100,13 +100,13 @@ const GetStarted = () => {
 
           </div>
           <div className=" py-5 bg-stone-900 sm:h-screen flex sm:flex-row flex-col-reverse justify-between gap-5 px-5 " id="mobile">
-            <div className='sm:w-[23%] sm:bg-[#d0ff05] sm:h-[500px]'
+            <div className='sm:w-[23%] sm:bg-[#d0ff05] sm:h-[500px] flex  justify-center'
             >
 
               <Image
                 src={sp3}
                 alt="get-started"
-                className="ml-10 sm:mt-16  object-cover sm:h-[500px] h-[250px] object-contain"
+                className="sm:ml-10 sm:mt-16  object-cover sm:h-[500px] h-[250px] object-contain"
                 height={500}
 
               />
@@ -114,15 +114,15 @@ const GetStarted = () => {
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className="sm:flex-[80%] sm:flex justify-center flex-col sm:pl-10 "
+              className="sm:flex justify-center flex-col sm:pl-10 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
             >
 
 
-              <h2 className='   text-strock-white text-4xl ml-16   md:text-6xl uppercase'>{t('mobileapps')}</h2>
-              <div className=" sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 ml-12 text-md tracking-[.05em] ">
+              <h2 className='   text-strock-white text-4xl sm:ml-16   md:text-6xl uppercase'>{t('mobileapps')}</h2>
+              <div className=" sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 sm:ml-12 text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('mobiledescp1')}
