@@ -24,7 +24,7 @@ const GetStarted = () => {
         className='flex justify-center items-center relative mt-56 '
 
       >
-        <div className='flex flex-col sm:block space-y-56'>
+        <div className='flex flex-col sm:block space-y-24 sm:space-y-56'>
 
           <div className="  flex sm:flex-row flex-col justify-between " id="games">
 
@@ -161,7 +161,7 @@ const GetStarted = () => {
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className=" -mt-44 sm:-mt-16 sm:flex-[80%] md:flex sm:justify-center flex-col mx-8 "
+              className=" -mt-16 sm:flex-[80%] md:flex sm:justify-center flex-col mx-8 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
@@ -169,7 +169,7 @@ const GetStarted = () => {
 
 
               <h2 className='  text-strock-white text-4xl sm:ml-12  md:text-6xl uppercase  '>{t('webapps')}</h2>
-              <div className="mt-[10px] sm:mt-[31px] flex flex-col sm:ml-8 text-gray-300  text-md tracking-[.05em] ">
+              <div className="mt-[31px] flex flex-col sm:ml-8 text-gray-300  text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('webappsdescp1')}
