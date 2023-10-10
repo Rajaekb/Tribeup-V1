@@ -18,7 +18,7 @@ const Atappilab = () => {
 
   return (
 
-    <section className="sm:h-auto bg-galaxy  sm:mt-56" >
+    <section className="sm:h-auto bg-galaxy  sm:mt-36" >
       <motion.div variants={staggerContainer}
         initial="hidden"
         whileInView="show"
