@@ -61,3 +61,10 @@ aside {
   background-image: url("../public/galax.webp");
   background-attachment: fixed;
 }
+.greenline {
+  background-color: #d0ff05;
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+  width: 900px;
+}

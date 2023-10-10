@@ -21,12 +21,12 @@ const GetStarted = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className='flex justify-center items-center '
+        className='flex justify-center items-center'
 
       >
         <div className='flex flex-col sm:block space-y-[150px] py-[250px]'>
 
-          <div className="  flex sm:flex-row flex-col justify-between h-[613px] " id="games">
+          <div className="  flex sm:flex-row flex-col justify-between h-[613px] mx-8 " id="games">
 
 
             <motion.div
@@ -37,7 +37,7 @@ const GetStarted = () => {
               viewport={{ once: false, amount: 0.25 }}
             >
 
-              <div className='flex items-center'>
+              <div className='flex items-center relative'>
                 <motion.div
                   variants={slideIn('left', 'tween', 0.2, 1)}
                 >
@@ -80,6 +80,13 @@ const GetStarted = () => {
                     games</h1>
                 </motion.div>
               </div>
+              <div className='flex justify-end  h-6 mt-5'>
+
+                <div className='greenline uppercase  '>
+                  {t('gamesdescp5')}
+                </div>
+              </div>
+
             </motion.div>
             <div className='flex justify-center w-[50%] rounded-xl sm:w-[43%] rounded-xl h-[500px]'
             >
@@ -99,7 +106,7 @@ const GetStarted = () => {
             </div>
 
           </div>
-          <div className="  bg-stone-900  flex sm:flex-row flex-col-reverse justify-between py-[150px]" id="mobile">
+          <div className="  bg-stone-900  flex sm:flex-row flex-col-reverse justify-between py-[150px] px-8" id="mobile">
             <div className='flex justify-center   w-[50%] sm:w-[40%] '
             >
 
@@ -115,7 +122,7 @@ const GetStarted = () => {
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className=" sm:flex justify-center  flex-col "
+              className=" sm:flex justify-center  flex-col relative "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
@@ -141,10 +148,7 @@ const GetStarted = () => {
                   {t('mobiledescp4')}
 
                 </p>
-                <p className=''>
-                  {t('mobiledescp5')}
 
-                </p>
                 <motion.div
                   className=" absolute   "
                   variants={slideIn('right', 'tween', 0.2, 1)}>
@@ -152,12 +156,18 @@ const GetStarted = () => {
                   <h1 className=" hidden sm:block text-8xl mt-24 ml-44 font-bold glassmorphism2 uppercase text-stone-900 z-50">
                     Mobile</h1>
                 </motion.div>
+
+              </div>
+              <div className='flex justify-start h-6 mt-20'>
+                <div className='greenline uppercase  ' >
+                  {t('mobiledescp5')}
+                </div>
               </div>
             </motion.div>
 
 
           </div>
-          <div className=" flex lg:flex-row flex-col justify-between " id="webapps">
+          <div className=" flex lg:flex-row flex-col justify-between mx-8 " id="webapps">
 
 
             <motion.div
@@ -170,7 +180,7 @@ const GetStarted = () => {
 
 
               <h2 className='  text-strock-white text-4xl sm:ml-16  md:text-6xl uppercase  '>{t('webapps')}</h2>
-              <div className="mt-[31px] flex flex-col sm:ml-12 mr-16 text-gray-300  text-md tracking-[.05em] ">
+              <div className="mt-[31px] flex flex-col sm:ml-12 mr-16 text-gray-300  relative text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('webappsdescp1')}
@@ -188,10 +198,7 @@ const GetStarted = () => {
                   {t('webappsdescp4')}
 
                 </p>
-                <p className=''>
-                  {t('webappsdescp5')}
 
-                </p>
                 <motion.div
                   className=" absolute -z-10  "
                   variants={slideIn('left', 'tween', 0.2, 1)}>
@@ -199,7 +206,13 @@ const GetStarted = () => {
                   <h1 className=" hidden sm:block text-8xl mt-24 ml-16 font-bold glassmorphism2 uppercase text-stone-900">
                     Web App</h1>
                 </motion.div>
+
+              </div>  <div className='flex justify-end h-6 mt-20 '>
+                <div className='greenline uppercase  z-50'>
+                  {t('webappsdescp5')}
+                </div>
               </div>
+
             </motion.div>
             <div className='flex justify-center   w-[50%] sm:w-[33%] '
             >
