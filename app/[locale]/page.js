@@ -17,8 +17,12 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <About />
+      <div className="my-[250px]">
+        <About />
+      </div>
+
       <Atappilab />
+
       <GetStarted />
 
       <Appistadium />

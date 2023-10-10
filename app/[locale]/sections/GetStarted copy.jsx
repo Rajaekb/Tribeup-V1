@@ -15,29 +15,29 @@ const GetStarted = () => {
   const t = useTranslations('Index');
 
   return (
-    <section className=" " id='getstarted'>
+    <section className=" border" id='getstarted'>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className='flex justify-center items-center '
+        className='flex justify-center items-center border'
 
       >
-        <div className='flex flex-col sm:block space-y-[150px] py-[250px]'>
+        <div className='flex flex-col sm:block '>
 
-          <div className="  flex sm:flex-row flex-col justify-between h-[613px] " id="games">
+          <div className="  flex sm:flex-row flex-col justify-between " id="games">
 
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className=""
+              className="  sm:flex-[80%] md:flex justify-center flex-col "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
             >
 
-              <div className='flex items-center'>
+              <div className='flex items-center sm:-mt-56 -mt-36'>
                 <motion.div
                   variants={slideIn('left', 'tween', 0.2, 1)}
                 >
@@ -81,41 +81,40 @@ const GetStarted = () => {
                 </motion.div>
               </div>
             </motion.div>
-            <div className='flex justify-center w-[50%] rounded-xl sm:w-[43%] rounded-xl h-[500px]'
+            <div className='flex justify-center w-[50%] sm:w-[23%] sm:bg-[#d0ff05] h-[500px] sm:-mt-24 sm:ml-10 '
             >
 
               <CldVideoPlayer
                 src='https://res.cloudinary.com/dv1ijhawt/video/upload/v1696241170/Foot_Runner_Record_qprja7.webm'
                 muted autoPlay="on-scroll" loop controls="0"
-                className='rounded-xl h-[550px]'
+                className='sm:-ml-10 sm:mt-8 mt-16 ml-24'
                 transformation={{
                   crop: "fill",
                   gravity: "center",
-                  witdh: 250,
-                  height: 550
+                  witdh: 550,
+                  height: 770
                 }}
 
               />
             </div>
 
           </div>
-          <div className="  bg-stone-900  flex sm:flex-row flex-col-reverse justify-between py-[150px]" id="mobile">
-            <div className='flex justify-center   w-[50%] sm:w-[40%] '
+          <div className=" py-5 bg-stone-900 sm:h-screen flex sm:flex-row flex-col-reverse justify-between gap-5 px-5 " id="mobile">
+            <div className='sm:w-[23%] sm:bg-[#d0ff05] sm:h-[500px] flex  justify-center'
             >
 
               <Image
                 src={sp3}
                 alt="get-started"
-                className="object-contain rounded-xl w-full"
-                height={800}
-                width={250}
+                className="sm:ml-10 sm:mt-16  object-cover sm:h-[500px] h-[250px] object-contain"
+                height={500}
 
               />
             </div>
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className=" sm:flex justify-center  flex-col "
+              className="sm:flex-[80%] sm:flex justify-center flex-col sm:pl-10 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
@@ -123,7 +122,7 @@ const GetStarted = () => {
 
 
               <h2 className='   text-strock-white text-4xl sm:ml-16   md:text-6xl uppercase'>{t('mobileapps')}</h2>
-              <div className=" sm:mt-[31px] flex flex-col  text-gray-300 sm:ml-12 text-md tracking-[.05em] ">
+              <div className=" sm:mt-[31px] flex flex-col sm:pr-24 text-gray-300 sm:ml-12 text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('mobiledescp1')}
@@ -162,15 +161,15 @@ const GetStarted = () => {
 
             <motion.div
               variants={fadeIn('up', 'tween', 0.8, 1)}
-              className=" sm:flex sm:justify-center flex-col"
+              className=" -mt-16 sm:flex-[80%] md:flex sm:justify-center flex-col mx-8 "
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
             >
 
 
-              <h2 className='  text-strock-white text-4xl sm:ml-16  md:text-6xl uppercase  '>{t('webapps')}</h2>
-              <div className="mt-[31px] flex flex-col sm:ml-12 mr-16 text-gray-300  text-md tracking-[.05em] ">
+              <h2 className='  text-strock-white text-4xl sm:ml-12  md:text-6xl uppercase  '>{t('webapps')}</h2>
+              <div className="mt-[31px] flex flex-col sm:ml-8 text-gray-300  text-md tracking-[.05em] ">
 
                 <p className=''>
                   {t('webappsdescp1')}
@@ -196,19 +195,18 @@ const GetStarted = () => {
                   className=" absolute -z-10  "
                   variants={slideIn('left', 'tween', 0.2, 1)}>
 
-                  <h1 className=" hidden sm:block text-8xl mt-24 ml-16 font-bold glassmorphism2 uppercase text-stone-900">
+                  <h1 className=" hidden sm:block text-8xl mt-24 ml-24 font-bold glassmorphism2 uppercase text-stone-900">
                     Web App</h1>
                 </motion.div>
               </div>
             </motion.div>
-            <div className='flex justify-center   w-[50%] sm:w-[33%] '
+            <div className='sm:w-[23%] sm:bg-[#d0ff05] sm:h-[500px]  sm:-mt-24 sm:ml-10 flex justify-center '
             >
               <Image
                 src={sp2}
                 alt="get-started"
-                className="object-contain rounded-xl w-full"
-                height={800}
-                width={250}
+                className="sm:-ml-10 mt-8  object-cover sm:h-[500px] h-[250px] object-contain"
+                height={500}
 
 
               />
