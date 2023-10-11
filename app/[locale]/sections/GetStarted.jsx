@@ -82,7 +82,7 @@ const GetStarted = () => {
               </div>
               <div className=' hidden sm:flex justify-end  h-6 mt-32 '>
 
-                <div className=' greenline uppercase  '>
+                <div className=' greenline uppercase z-50 '>
                   {t('gamesdescp5')}
                 </div>
               </div>
@@ -159,7 +159,7 @@ const GetStarted = () => {
 
               </div>
               <div className='hidden sm:flex justify-start mt-32'>
-                <div className='greenline uppercase ' >
+                <div className='greenline uppercase z-50' >
                   {t('mobiledescp5')}
                 </div>
               </div>
