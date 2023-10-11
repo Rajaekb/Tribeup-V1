@@ -23,14 +23,14 @@ const Ourservices = () => {
                     <motion.div
                         variants={slideIn('left', 'tween', 0.2, 1)}
                         className="flex">
-                        <div className='sm:mt-5  sm:w-60 w-20 '>
+                        <div className='sm:mt-5  sm:w-[620px] w-20 '>
                             <div className='border border-[#d0ff05] m-1 rounded-lg' />
                         </div>
                         <div className="mr-7">
 
                             <TypingText title={t('ourservices')} />
                         </div>
-                        <div className='sm:mt-5  sm:w-60 w-20 '>
+                        <div className='sm:mt-5  sm:w-[620px] w-20 '>
                             <div className='border border-[#d0ff05] m-1 rounded-lg' />
                         </div>
                     </motion.div>
@@ -38,9 +38,9 @@ const Ourservices = () => {
                 </div>
 
                 <motion.div variants={fadeIn('up', 'tween', 0.5, 1)} className="flex justify-center text-gray-300 sm:text-xl text-md tracking-[.05em] sm:leading-normal leading-relaxed pt-5 pb-16 mx-64 " >
-                    <div><h1 className="text-strock-gray text-5xl md:text-7xl uppercase py-5 sm:leading-normal leading-relaxed py-10">{t('ourservicestitle')}</h1>
-                        <div className="flex gap-5">
-                            <p>{t('ourservicestext1')}</p>
+                    <div><h1 className="text-strock-gray text-5xl md:text-6xl uppercase py-5 sm:leading-normal leading-relaxed py-10">{t('ourservicestitle')}</h1>
+                        <div className="">
+                            <p>{t('ourservicestext1')}</p><br />
                             <p>{t('ourservicestext2')}</p>
 
                         </div>
