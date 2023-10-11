@@ -80,7 +80,7 @@ const GetStarted = () => {
                     games</h1>
                 </motion.div>
               </div>
-              <div className=' hidden sm:flex justify-end  h-6 mt-32 '>
+              <div className=' hidden sm:flex justify-end  h-6 mt-24 '>
 
                 <div className=' greenline uppercase z-50 '>
                   {t('gamesdescp5')}
@@ -158,7 +158,7 @@ const GetStarted = () => {
                 </motion.div>
 
               </div>
-              <div className='hidden sm:flex justify-start mt-32'>
+              <div className='hidden sm:flex justify-start mt-24'>
                 <div className='greenline uppercase z-50' >
                   {t('mobiledescp5')}
                 </div>
