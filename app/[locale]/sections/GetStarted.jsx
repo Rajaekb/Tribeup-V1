@@ -79,7 +79,7 @@ const GetStarted = () => {
                   <h1 className=" hidden sm:block text-8xl mt-24 ml-80 font-bold glassmorphism2 uppercase text-stone-900">
                     games</h1>
                 </motion.div>
-                <div className=' hidden sm:flex justify-end  h-6 mt-24  '>
+                <div className=' hidden sm:flex justify-end  h-6 mt-16  '>
 
                   <div className=' greenline uppercase z-50 '>
                     {t('gamesdescp5')}
