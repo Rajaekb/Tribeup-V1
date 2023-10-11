@@ -38,9 +38,9 @@ const Ourservices = () => {
                 </div>
 
                 <motion.div variants={fadeIn('up', 'tween', 0.5, 1)}
-                    className="flex justify-center text-gray-300 sm:text-xl text-md tracking-[.05em] sm:leading-normal leading-relaxed pt-5 pb-16 mx-64 " >
+                    className="flex justify-center text-gray-300 sm:text-xl text-md tracking-[.05em] sm:leading-normal leading-relaxed pt-5 pb-16 px-16" >
                     <div><h1 className="text-strock-gray text-5xl md:text-6xl uppercase py-5 sm:leading-normal leading-relaxed py-10">{t('ourservicestitle')}</h1>
-                        <div className="">
+                        <div className=" text-gray-300 sm:text-2xl text-xl tracking-[.10em] ">
                             <p>{t('ourservicestext1')}</p><br />
                             <p>{t('ourservicestext2')}</p>
 
